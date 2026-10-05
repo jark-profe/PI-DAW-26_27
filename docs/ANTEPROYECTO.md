@@ -6,7 +6,7 @@
   * **Descripción:** Breve descripción (de entre 50 y 100 palabras) genérica acerca de en qué consiste vuestro proyecto, sin mencionar tecnologías concretas.
 * **Análisis:** 
   * **Requisitos funcionales:** Lista explicativa de las características y operativas del sistema.
-  * **Roles:** Identificación explícita de los roles (ej. *Administrador*, *Usuario Registrado*, *Anónimo*).
+  * **Roles:** Identificación explícita de los roles de la aplicación.
   * **Vistas:** Listado de vistas públicas, privadas y de gestión.
 * **Diseño**:
   * **Stack tecnológico elegido:** Lista justificada de las tecnologías principales (Frontend, Backend, BBDD y despliegue).
