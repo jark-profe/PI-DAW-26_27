@@ -16,17 +16,6 @@ La calificación del módulo se desglosa en tres bloques:
 
 ---
 
-## 🚀 Mínimos Exigibles del Proyecto (El "Qué debe tener")
-
-Para que la aplicación se considere completa y lista para evaluar, debe incluir:
-
-1. **Diseño e Interfaz (20%):** Aspecto visual cuidado, coherencia estética entre pantallas y navegación adaptada a escritorio (se valorará positivamente la adaptación responsive a móvil/tablet).
-2. **Frontend (20%):** Navegación funcional con páginas públicas y protegidas tras login, formularios con validación y mensajes de feedback al usuario.
-3. **Backend y BBDD (20%):** Persistencia en Base de Datos con relaciones, CRUD funcional de las entidades del negocio, login/logout seguro con contraseñas encriptadas y control de acceso por roles.
-4. **Despliegue (10%):** Aplicación subida a un servidor en la nube con URL pública bajo HTTPS y estructura de contenedores (`Dockerfile` / `docker-compose`).
-
----
-
 ## ⚠️ Condiciones Obligatorias para Aprobar
 
 Para poder hacer media y aprobar la asignatura, se deben cumplir dos condiciones indispensables:
