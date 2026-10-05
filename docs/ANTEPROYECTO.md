@@ -9,15 +9,16 @@
   * **Roles:** Identificación explícita de los roles (ej. *Administrador*, *Usuario Registrado*, *Anónimo*).
   * **Vistas:** Listado de vistas públicas, privadas y de gestión.
 * **Diseño**:
+  * **Stack tecnológico elegido:** Lista justificada de las tecnologías principales (Frontend, Backend, BBDD y despliegue).
   * **Esquema E/R:** Diagrama Entidad/Relación conceptual y lógico de la base de datos.
   * **Prototipado:** Diseños iniciales de alta fidelidad en Figma.
   * **Video-demo 1:** Una demostración en video de como funcionaría la aplicación usando el prototipado.
-  * **Stack tecnológico elegido:** Lista justificada de las tecnologías principales (Frontend, Backend, BBDD y despliegue).
 * **PoC:**
-  * **Prueba de Concepto (PoC - Funcionalidad Mínima):**  Código ejecutable que acredite la viabilidad del stack elegido.
+  * **Prueba de Concepto (PoC - Funcionalidad Mínima):**  Código del MVP (Producto Mínimo Viable) usando el stack elegido.
   *       Debe incluir como mínimo:
+        • Tablas básicas para que funcione el core de la aplicación.
         • Conexión funcional entre Frontend y Backend.  
         • Conexión funcional con la Base de Datos.  
-        • Un flujo básico mínimo de lectura o escritura de datos que valide la arquitectura básica.
-  * ** Video-demo 2: ** Una demostración en video de como funciona la PoC.
+        • Un flujo mínimo de lectura y escritura de datos que valide la arquitectura básica.
+  * **Video-demo 2:** Una demostración en video de como funciona la PoC.
 * **Repositorio en Github:** con los 3 primeros apartados de la documentación final rellenos en el `README.md`.
