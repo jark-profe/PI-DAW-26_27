@@ -16,7 +16,6 @@
 * **PoC:**
   * **Prueba de Concepto (PoC - Funcionalidad Mínima):**  Código del MVP (Producto Mínimo Viable) usando el stack elegido.
   *       Debe incluir como mínimo:
-        • Tablas básicas para que funcione el core de la aplicación.
         • Conexión funcional entre Frontend y Backend.  
         • Conexión funcional con la Base de Datos.  
         • Un flujo mínimo de lectura y escritura de datos que valide la arquitectura básica.
