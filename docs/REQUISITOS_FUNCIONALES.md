@@ -2,8 +2,8 @@
 
 - **RF-01 (Autenticación):** El sistema permitirá el registro de usuarios, login con credenciales válidas y logout.
 - **RF-02 (Perfil):** El usuario autenticado podrá ver y modificar su información de perfil.
-- **RF-03 (Roles):** El sistema restringirá accesos y acciones diferenciando entre el rol [ej: Usuario/Cliente] y el rol [ej: Administrador].
-- **RF-04 (CRUD Principal):** El rol [Administrador/Gestor] podrá crear, listar, editar y borrar [ej: Productos / Citas / Vehículos].
+- **RF-03 (Roles):** El sistema restringirá accesos y acciones diferenciando entre roles.
+- **RF-04 (CRUD Principal):** El rol podrá crear, listar, editar y borrar [ej: Productos / Citas / Vehículos].
 
 ### Requisitos Funcionales Específicos 
 
