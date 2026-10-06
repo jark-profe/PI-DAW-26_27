@@ -1,11 +1,11 @@
-### Requisitos Funcionales Mínimos (Obligatorios para todos) --> Debeis adaptarlo a vuestra aplicación
+### Requisitos Funcionales mínimos (Obligatorios para todos) --> Debeis adaptarlo a vuestra aplicación
 
 - **RF-01 (Autenticación):** El sistema permitirá el registro de usuarios [ej: Cliente / Gestor / Colaborador], login y logout.
 - **RF-02 (Perfil):** El usuario autenticado [ej: Cliente / Gestor / Colaborador] podrá ver y modificar su información de perfil.
 - **RF-03 (Roles):** El sistema restringirá accesos y acciones diferenciando entre los roles [ej: Usuario Anónimo, Administrador, Cliente].
 - **RF-04 (CRUD):** El usuario [ej: Cliente / Gestor / Colaborador] tendrá la posibilidad de crear, listar, editar y borrar elementos [ej: Productos / Citas / Vehículos].
 
-### Requisitos Funcionales Específicos --> Propios de vuestra aplicación
+### Requisitos Funcionales específicos --> Propios de vuestra aplicación
 
 *Ejemplos:*
 - **RF-05 ([Nombre de la funcionalidad]):** El [tipo de usuario] podrá [acción concreta] para [objetivo del negocio].
@@ -13,7 +13,7 @@
 
 ---
 
-#### 💡 Ejemplos de posibles RF en los proyectos tipo vistos en clase
+#### 💡 Ejemplos de posibles RF específicos en los proyectos tipo vistos en clase
 
 ##### 🛒 Tipo E-Commerce / Tienda online
 * **RF-05 (Búsqueda y filtro de catálogo):** El usuario cliente podrá buscar productos por palabra clave y filtrarlos por categoría y rango de precios.
