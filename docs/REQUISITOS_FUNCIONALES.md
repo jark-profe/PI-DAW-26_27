@@ -16,12 +16,12 @@
 #### 💡 Ejemplos de posibles RF específicos en los proyectos tipo vistos en clase
 
 ##### 🛒 Tipo E-Commerce / Tienda online
-* **RF-05 (Búsqueda y filtro de catálogo):** El usuario cliente podrá buscar productos por palabra clave y filtrarlos por categoría y rango de precios.
-* **RF-06 (Carrito):** El usuario cliente podrá añadir o eliminar productos de su cesta de la compra.
-* **RF-07 (Tramitación de pedido):** El usuario cliente podrá formalizar su compra seleccionando la dirección de envío y realizando el pago.
+* **RF-05 (Búsqueda y filtro de catálogo):** El cliente podrá buscar productos por palabra clave y filtrarlos por categoría y rango de precios.
+* **RF-06 (Carrito):** El cliente podrá añadir o eliminar productos de su cesta de la compra.
+* **RF-07 (Tramitación de pedido):** El cliente podrá formalizar su compra seleccionando la dirección de envío y realizando el pago.
 
 ##### 📅 Tipo Sistema de reservas y citas (Booking / Servicios)
-* **RF-05 (Reserva en calendario):** El usuario podrá seleccionar fecha, hora y profesional o servicio disponible mediante un calendario interactivo.
+* **RF-05 (Reserva en calendario):** El cliente podrá seleccionar fecha, hora y profesional o servicio disponible mediante un calendario interactivo.
 * **RF-06 (Consulta de citas):** El cliente podrá consultar el historial de sus reservas activas.
 * **RF-07 (Cancelación de citas):** El cliente podrá cancelar una cita previamente programada.
 
