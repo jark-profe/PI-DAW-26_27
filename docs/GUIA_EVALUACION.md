@@ -10,8 +10,8 @@ La calificación del módulo se desglosa en tres bloques:
 | | **Cliente (Frontend)** | **25%** | Vistas públicas/privadas, formularios, gestión de estado y consumo de API. |
 | | **Servidor (Backend)** | **25%** | Base de datos, API REST, operaciones CRUD, autenticación y permisos. |
 | | **Despliegue** | **10%** | Despliegue en servidor cloud accesible vía HTTPS y contenedores (Docker). |
-| **Documentación** *(10%)* | Documentación final en GitHub (`README.md`). |
-| **Exposición** *(10%)* | Defensa oral | **10%** | Exposición oral, demo funcional en vivo y preguntas de verificación de autoría. |
+| **Documentación** *(10)* |  | **10%** | Documentación final en GitHub (`README.md`). |
+| **Exposición** *(10)*|  | **10%** | Exposición oral, demo funcional en vivo y preguntas de verificación de autoría. |
 
 ---
 
