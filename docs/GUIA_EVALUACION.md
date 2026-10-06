@@ -1,4 +1,4 @@
-# 📋 Guía de Evaluación del Proyecto Intermodular
+# 📋 Guía de evaluación del Proyecto Intermodular
 
 ## 📊 Reparto de Pesos
 
@@ -6,13 +6,12 @@ La calificación del módulo se desglosa en tres bloques:
 
 | Bloque | Subbloque | Peso % | Ámbitos a evaluar |
 | :--- | :--- | :---: | :--- |
-| **Proyecto** *(70%)* | **Interfaz (UI/UX)** | **20%** | Diseños, coherencia visual, usabilidad y adaptación a distintas pantallas. |
-| | **Cliente (Frontend)** | **20%** | Vistas públicas/privadas, formularios, gestión de estado y consumo de API. |
-| | **Servidor (Backend)** | **20%** | Base de datos, API REST, operaciones CRUD, autenticación y permisos. |
+| **Proyecto** *(80%)* | **Interfaz** | **20%** | Diseños, coherencia visual, usabilidad y adaptación a distintas pantallas. |
+| | **Cliente (Frontend)** | **25%** | Vistas públicas/privadas, formularios, gestión de estado y consumo de API. |
+| | **Servidor (Backend)** | **25%** | Base de datos, API REST, operaciones CRUD, autenticación y permisos. |
 | | **Despliegue** | **10%** | Despliegue en servidor cloud accesible vía HTTPS y contenedores (Docker). |
-| **Documentación** *(20%)* | **Anteproyecto** | **10%** | Aprobación del planteamiento inicial (Calificación **APTO**). |
-| | **README y Seguimiento**| **10%** | Documentación técnica en GitHub (`README.md`) y bitácora/commits. |
-| **Exposición** *(10%)* | **Defensa y Demo** | **10%** | Exposición oral, demo funcional en vivo y preguntas de verificación de autoría. |
+| **Documentación** *(10%)* | Documentación final en GitHub (`README.md`). |
+| **Exposición** *(10%)* | Defensa oral | **10%** | Exposición oral, demo funcional en vivo y preguntas de verificación de autoría. |
 
 ---
 
