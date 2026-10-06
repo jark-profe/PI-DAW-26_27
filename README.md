@@ -8,7 +8,7 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
 
 ## 📅 Timeline del Proyecto Intermodular
 
-| Fase / Hito | Fecha orientativa | Detalle | 
+| Fase | Fecha orientativa | Detalle | 
 | :--- | :---: | :--- |
 | **Checkpoint 1: Datos del proyecto** | 11 Octubre | Definición de la idea. |
 | **Checkpoint 2: Análisis** | 25 Octubre | Requisitos Funcionales (RF), roles y mapa de vistas. |
