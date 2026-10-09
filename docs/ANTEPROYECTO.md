@@ -18,5 +18,5 @@
         • Conexión funcional entre Frontend y Backend.  
         • Conexión funcional con la Base de Datos.  
         • Un flujo mínimo de lectura y escritura de datos que valide la arquitectura básica.
-  * **Video-demo 2:** Una demostración en video de como funciona la PoC.
+  * **Video-demo:** Una demostración en video de como funciona la PoC.
 * **Repositorio en Github:** con los 3 primeros apartados (Datos del proyecto, Análisis, Diseño) rellenos en el `README.md`.
