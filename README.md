@@ -20,7 +20,7 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
   <tbody>
     <tr>
       <td rowspan="5"><strong>ANTEPROYECTO</strong></td>
-      <td><strong>Checkpoint 1: Datos del proyecto</strong></td>
+      <td><strong>Checkpoint 1: Definición inicial</strong></td>
       <td>11 Octubre</td>
       <td>Definición de la idea.</td>
     </tr>
