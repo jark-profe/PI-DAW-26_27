@@ -14,7 +14,7 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
 | **Checkpoint 2: Análisis** | 25 Octubre | Requisitos Funcionales (RF), roles y mapa de vistas. |
 | **Checkpoint 3: Diseño** | 22 Noviembre | Esquema E/R, prototipo Figma/Wireframes y stack tecnológico. |
 | **Checkpoint 4: PoC** | 13 Diciembre | Demo funcional. | 
-| **Entrega final Anteproyecto** | ~17 Enero | Calificación oficial de **APTO / NO APTO**. |
+| **Entrega final [Anteproyecto](docs/ANTEPROYECTO.md)** | ~17 Enero | Calificación oficial de **APTO / NO APTO**. |
 | **Desarrollo y seguimiento** | Febrero - Mayo | Implementación del software y seguimiento. | 
 | **Defensa** | Por determinar | Cierre del repositorio y exposición oral. | 
 
