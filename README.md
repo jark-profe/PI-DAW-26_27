@@ -12,7 +12,7 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
   <thead>
     <tr>
       <th>Fase</th>
-      <th>Evento</th>
+      <th>Detalle</th>
       <th>Fecha orientativa</th>
       <th>Detalle</th>
     </tr>
