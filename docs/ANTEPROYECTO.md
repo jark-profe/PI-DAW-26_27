@@ -12,7 +12,6 @@
   * **Stack tecnológico elegido:** Lista justificada de las tecnologías principales (Frontend, Backend, BBDD y despliegue).
   * **Esquema E/R:** Diagrama Entidad/Relación conceptual y lógico de la base de datos.
   * **Prototipado:** Diseños iniciales de alta fidelidad en Figma.
-  * **Video-demo 1:** Una demostración en video de como funcionaría la aplicación usando el prototipado.
 * **PoC:**
   * **Prueba de Concepto (PoC - Funcionalidad Mínima):**  Código del MVP (Producto Mínimo Viable) usando el stack elegido.
   *       Debe incluir como mínimo:
