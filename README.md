@@ -10,9 +10,9 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
 
 <table>
   <thead>
-    <tr style="background-color: #FFF9C4;">
-      <th>Bloque / Etapa</th>
+    <tr>
       <th>Fase</th>
+      <th>Evento</th>
       <th>Fecha orientativa</th>
       <th>Detalle</th>
     </tr>
