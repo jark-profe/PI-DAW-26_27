@@ -10,9 +10,9 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
 
 <table>
   <thead>
-    <tr>
+    <tr style="background-color: #FFF9C4;">
+      <th>Bloque / Etapa</th>
       <th>Fase</th>
-      <th>Item</th>
       <th>Fecha orientativa</th>
       <th>Detalle</th>
     </tr>
@@ -64,7 +64,6 @@ En este repositorio se encuentra centralizada toda la documentación oficial del
     </tr>
   </tbody>
 </table>
-
 
 
 
