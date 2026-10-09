@@ -1,5 +1,5 @@
 ### Anteproyecto (APTO / NO APTO)
-* **Datos del proyecto:** 
+* **Definición inicial:** 
   * **Título:** Nombre que le habéis puesto al proyecto
   * **Tipo:** Categoría o categorías en las que se puede encuadrar la tipología del proyecto
   * **Temática:** Área o ámbito en el que se enfoca el proyecto.
