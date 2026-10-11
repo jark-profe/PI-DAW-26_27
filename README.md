@@ -8,7 +8,7 @@ Este proyecto es tu oportunidad para demostrar y unificar todos los conocimiento
 
 ## 📌 Requisitos Obligatorios
 
-Antes de comenzar a definir tu idea, es **estrictamente necesario** que conozcas las normas de arquitectura y los mínimos exigibles para que tu desarrollo sea evaluable.
+Antes de comenzar, es **estrictamente necesario** que conozcas los mínimos exigibles para que tu desarrollo sea evaluable.
 
 👉 **[Consulta aquí los Requisitos mínimos y condiciones del proyecto](docs/CONDICIONES.md)**
 
@@ -29,7 +29,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong>ANTEPROYECTO</strong><br><em>(Octubre - Enero)</em></td>
+      <td rowspan="5"><strong><a href="docs/ANTEPROYECTO.md">ANTEPROYECTO</a></strong><br><em>(Octubre - Enero)</em></td>
       <td><strong><a href="docs/CHECKPOINT1.md">Checkpoint 1: Definición inicial</a></strong></td>
       <td>11 Octubre</td>
       <td>Definición de la idea, título, temática y descripción del alcance.</td>
@@ -50,7 +50,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
       <td>Desarrollo del MVP (Minimum Viable Product) y vídeo-demo de validación.</td>
     </tr>
     <tr>
-      <td><strong>Entrega final <a href="docs/ANTEPROYECTO.md">Anteproyecto</a></strong></td>
+      <td><strong>Entrega final Anteproyecto</strong></td>
       <td>~17 Enero</td>
       <td>Calificación oficial de <strong>APTO / NO APTO</strong>. <em>(Requisito indispensable para pasar a la fase de codificación).</em></td>
     </tr>
