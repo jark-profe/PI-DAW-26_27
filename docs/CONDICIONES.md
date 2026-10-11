@@ -16,13 +16,13 @@ Estos son los condicionantes estructurales obligatorios que debe cumplir todo pr
 ## 2. Requisitos NO Funcionales (Atributos de calidad)
 Hacen referencia a cómo debe comportarse el sistema (rendimiento, usabilidad, seguridad, etc.). 
 
-* ⚠️ **IMPORTANTE para el Checkpoint de Análisis:** Tal y como se ha indicado en las directrices del ciclo de vida del proyecto, en vuestra entrega de la fase de Análisis NO hay que especificar los Requisitos no funcionales. Debéis cumplirlos técnicamente de cara a aprobar el proyecto, pero no documentarlos en esa fase.
+⚠️ **IMPORTANTE para el Checkpoint de Análisis:** Tal y como se ha indicado en las directrices del ciclo de vida del proyecto, en vuestra entrega de la fase de Análisis NO hay que especificar los Requisitos no funcionales. Debéis cumplirlos técnicamente de cara a aprobar el proyecto, pero no documentarlos en esa fase.
 * **Diseño *Responsive*:** La interfaz de la aplicación web deberá ser completamente adaptable a dispositivos móviles y tablets. Tened en cuenta que se os exigirá una demostración de maquetación *responsive* durante vuestra defensa oral ante el tribunal.
 
 ## 3. Requisitos Funcionales Base (El "Core" obligatorio)
 Estas son las operativas y características mínimas que debe realizar vuestra aplicación web (el "qué" hace el sistema). 
 
-* 📝 **Nota para la redacción:** No copiéis y peguéis esta lista en vuestra entrega. Deberéis tomar esta base y **redactarla adaptándola a la temática de vuestro proyecto**.
+📝 **Nota para la redacción:** No copiéis y peguéis esta lista en vuestra entrega. Deberéis tomar esta base y **redactarla adaptándola a la temática de vuestro proyecto**.
 * **Gestión de Roles:** El sistema exige la identificación explícita de los roles, debiendo contar con al menos tres niveles de usuario (ej: Usuario Administrador, Usuario Registrado y Usuario Anónimo).
 * **Autenticación:** La aplicación deberá ofrecer un sistema seguro de registro e inicio de sesión para los usuarios.
 * **Gestión de Perfil:** Todo usuario registrado deberá tener la posibilidad de visualizar y modificar su información de perfil.
