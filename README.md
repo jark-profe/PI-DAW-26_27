@@ -12,7 +12,7 @@ Recuerda que este es un proyecto de carácter individual (un solo programador) q
 
 Antes de comenzar a definir tu idea, es **estrictamente necesario** que conozcas las normas de arquitectura y los mínimos exigibles para que tu desarrollo sea evaluable.
 
-👉 **[Consulta aquí los Requisitos Mínimos y Condiciones del Proyecto (docs/CONDICIONES.md)](docs/CONDICIONES.md)**
+👉 **[Consulta aquí los Requisitos Mínimos y Condiciones del Proyecto](docs/CONDICIONES.md)**
 
 ---
 
