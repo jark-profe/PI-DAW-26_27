@@ -1,6 +1,6 @@
-# 📌 Checkpoint 2: Análisis del Sistema
+# 📌 Checkpoint 2: Análisis
 
-¡Bienvenidos al segundo hito del Proyecto Intermodular! Una vez validada la definición de vuestro proyecto, entramos en la fase de **Análisis**. Aquí responderemos a la pregunta clave: **¿QUÉ debe hacer el sistema?**
+¡Bienvenidos al segundo hito del Proyecto Intermodular! Una vez validada la definición de vuestro proyecto, entramos en la fase de **Análisis**. Aquí responderemos a la pregunta clave: **¿QUÉ debe hacer nuestra aplicación web?**
 
 En esta fase no nos preocupa aún cómo se programará o qué tecnologías usaremos, sino detallar con precisión las operativas, los usuarios que interactuarán con la aplicación y las pantallas o vistas que necesitarán.
 
@@ -16,7 +16,7 @@ Listado numerado y explicativo de todas las acciones, características y funcion
 * ⚠️ **REGLA OBLIGATORIA:** **NO incluyas Requisitos No Funcionales** (rendimiento, tiempos de respuesta, tecnología a usar, etc.). Enfócate únicamente en las funcionalidades que usa el usuario.
 
 ### 2. Identificación de Roles
-Definición explícita de los diferentes tipos de usuarios que interactuarán con la plataforma y qué permisos generales tiene cada uno.
+Definición  de los diferentes tipos de usuarios que interactuarán con la plataforma y qué permisos generales tiene cada uno.
 * ⚠️ **REGLA OBLIGATORIA:** La aplicación debe contar con **al menos 3 roles diferenciados** (por ejemplo: *Usuario Anónimo*, *Usuario Registrado / Cliente* y *Administrador / Gestor*).
 
 ### 3. Mapa de Vistas (Estructura de URLs)
@@ -48,7 +48,7 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
 
 ### Ejemplo de Clasificación de Vistas:
 * **Públicas:**
-  * `/` — Página principal de bienvenida y destacados.
+  * `/` — Página principal de bienvenida.
   * `/login` — Formulario de inicio de sesión.
   * `/registro` — Formulario de alta de usuario.
 * **Privadas:**
