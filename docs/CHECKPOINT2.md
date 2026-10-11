@@ -34,7 +34,7 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
 
 * **Incluir Requisitos No Funcionales:** Escribir requisitos como *"La base de datos será MySQL"* o *"La web tardará menos de 2 segundos en cargar"*. Eso NO pertenece al análisis funcional.
 * **Tener menos de 3 roles:** Proponer un sistema donde solo exista un rol o no se diferencie entre un visitante anónimo y un usuario registrado.
-* **Requisitos vagos o imprecisos:** Usar frases genéricas como *"RF-01: El usuario puede hacer cosas en la web"*. Sé concreto (ej: *"RF-01: El usuario cliente puede registrarse mediante correo y contraseña"*).
+* **Requisitos vagos o imprecisos:** Usar frases genéricas como *"RF-01: El usuario puede hacer movidas guapas en la web"*. Sé concreto (ej: *"RF-01: El usuario anónimo puede registrarse mediante correo y contraseña"*).
 * **Rutas incoherentes:** Listar URLs que no corresponden a una aplicación web real o no clasificarlas por nivel de acceso.
 
 ---
@@ -44,7 +44,7 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
 ### Ejemplo de Requisitos Funcionales (RF):
 * **`RF-01` — Registro de usuarios:** El sistema permitirá a usuarios anónimos registrarse proporcionando nombre, email y contraseña.
 * **`RF-02` — Gestión de productos (CRUD):** El administrador podrá crear, listar, editar y eliminar productos del catálogo.
-* **`RF-03` — Búsqueda y filtrado:** El usuario registrado podrá buscar elementos por texto y filtrarlos por categoría y rango de precio.
+* **`RF-03` — Búsqueda y filtrado:** El usuario cliente podrá buscar productos a través de texto y filtrarlos por categoría y rango de precio.
 
 ### Ejemplo de Clasificación de Vistas:
 * **Públicas:**
