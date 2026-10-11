@@ -1,69 +1,84 @@
 # 🚀 Proyecto Intermodular (PI) — 2º DAW (Curso 2026/27)
 
-Bienvenido/a al repositorio central de la asignatura **Proyecto Intermodular** del Ciclo Formativo de Grado Superior en **Desarrollo de Aplicaciones Web (DAW)** del **IES Juan de la Cierva**.
+¡Bienvenido/a al repositorio central de la asignatura **Proyecto Intermodular** del Ciclo Formativo de Grado Superior en **Desarrollo de Aplicaciones Web (DAW)** del **IES Juan de la Cierva**!
 
-En este repositorio se encuentra centralizada toda la documentación oficial del PI para este curso académico.
+Como tu tutor, mi objetivo es guiarte a lo largo de todo el ciclo de vida de tu proyecto final. Este proyecto es tu oportunidad para demostrar y unificar todos los conocimientos técnicos adquiridos (Servidor, Cliente, Despliegue, Diseño de Interfaces, etc.) en un entorno de desarrollo realista.
+
+Recuerda que este es un proyecto de carácter individual (un solo programador) que requerirá aproximadamente 7 meses de trabajo combinando dedicación parcial y completa. Tendrá un enfoque puramente práctico, fuertemente orientado a la implementación, la arquitectura y el código, requiriendo una documentación ágil y simplificada[cite: 1]. 
+
+---
+
+## 📌 Requisitos Obligatorios
+
+Antes de comenzar a definir tu idea, es **estrictamente necesario** que conozcas las normas de arquitectura y los mínimos exigibles para que tu desarrollo sea evaluable.
+
+👉 **[Consulta aquí los Requisitos Mínimos y Condiciones del Proyecto (docs/CONDICIONES.md)](docs/CONDICIONES.md)**
 
 ---
 
 ## 📅 Timeline del Proyecto Intermodular
 
+El proyecto se divide en diferentes fases con hitos de entrega. A continuación, tienes el calendario de trabajo oficial:
+
 <table>
   <thead>
     <tr>
       <th>Fase</th>
-      <th>Detalle</th>
-      <th>Fecha orientativa</th>
+      <th>Hito / Entregable</th>
+      <th>Fecha límite</th>
       <th>Detalle</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong>ANTEPROYECTO</strong></td>
+      <td rowspan="5"><strong>ANTEPROYECTO</strong><br><em>(Octubre - Enero)</em></td>
       <td><strong>Checkpoint 1: Definición inicial</strong></td>
       <td>11 Octubre</td>
-      <td>Definición de la idea.</td>
+      <td>Definición de la idea, título, temática y descripción del alcance.</td>
     </tr>
     <tr>
       <td><strong>Checkpoint 2: Análisis</strong></td>
       <td>25 Octubre</td>
-      <td>Requisitos Funcionales (RF), roles y mapa de vistas.</td>
+      <td>Requisitos Funcionales (RF), definición de roles y mapa de vistas.</td>
     </tr>
     <tr>
       <td><strong>Checkpoint 3: Diseño</strong></td>
       <td>22 Noviembre</td>
-      <td>Esquema E/R, prototipo Figma/Wireframes y stack tecnológico.</td>
+      <td>Esquema E/R (conceptual y lógico), prototipado en Figma y stack tecnológico.</td>
     </tr>
     <tr>
-      <td><strong>Checkpoint 4: PoC</strong></td>
+      <td><strong>Checkpoint 4: PoC (Prueba de Concepto)</strong></td>
       <td>13 Diciembre</td>
-      <td>Demo funcional.</td>
+      <td>Desarrollo del MVP (Minimum Viable Product) y vídeo-demo de validación.</td>
     </tr>
     <tr>
       <td><strong>Entrega final <a href="docs/ANTEPROYECTO.md">Anteproyecto</a></strong></td>
       <td>~17 Enero</td>
-      <td>Calificación oficial de <strong>APTO / NO APTO</strong>.</td>
+      <td>Calificación oficial de <strong>APTO / NO APTO</strong>. <em>(Requisito indispensable para pasar a la fase de codificación).</em></td>
     </tr>
     <tr>
-      <td><strong>CODIFICACIÓN</strong></td>
-      <td><strong>Desarrollo y seguimiento</strong></td>
+      <td><strong>DESARROLLO</strong><br><em>(Febrero - Mayo)</em></td>
+      <td><strong>Codificación, pruebas y despliegue</strong></td>
       <td>Febrero - Mayo</td>
-      <td>Implementación del software y seguimiento.</td>
+      <td>Implementación del software durante la estancia en la empresa. Seguimiento continuo mediante bitácora semanal y control de commits en GitHub[cite: 1].</td>
     </tr>
     <tr>
-      <td><strong>ENTREGA</strong></td>
-      <td><strong>Entrega final del proyecto</strong></td>
+      <td><strong>ENTREGA FINAL</strong></td>
+      <td><strong>Código y documentación final</strong></td>
       <td>Mayo</td>
-      <td>Cierre del repositorio y código definitivo.</td>
+      <td>Cierre del repositorio en GitHub, despliegue en producción y guías de uso[cite: 1].</td>
     </tr>
     <tr>
       <td><strong>DEFENSA</strong></td>
-      <td><strong>Defensa oral</strong></td>
-      <td>Por determinar</td>
-      <td>Exposición oral ante el tribunal.</td>
+      <td><strong>Exposición oral</strong></td>
+      <td>Finales de Mayo / Principios de Junio</td>
+      <td>Exposición, demostración en producción y defensa del proyecto ante el tribunal docente[cite: 1].</td>
     </tr>
   </tbody>
 </table>
+
+---
+
 
 
 
