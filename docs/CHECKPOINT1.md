@@ -26,19 +26,3 @@ Para obtener el **APTO** en Moodle/GitHub en este hito, asegúrate de no cometer
 * **Mencionar tecnologías en la descripción:** La descripción en esta fase debe ser estrictamente funcional (qué hace la app, no cómo está programada). Las tecnologías se seleccionarán y justificarán en el Checkpoint 3.
 * **Proponer una página web estática:** Si tu idea no requiere base de datos, autenticación de usuarios ni gestión de permisos (CRUD), no es válida para un perfil DAW.
 * **Extensión incorrecta:** Presentar descripciones de menos de 50 palabras (vagas) o de más de 100 palabras.
-
----
-
-## 📝 Plantilla para tu entrega
-
-Copia el siguiente bloque de texto en el apartado correspondiente de tu memoria o `README.md` y completa los datos:
-
-```markdown
-### Checkpoint 1: Definición Inicial
-
-* **Título del Proyecto:** [Escribe aquí el nombre de tu aplicación]
-* **Tipo de Aplicación:** [Ej: Plataforma de gestión / E-commerce / etc.]
-* **Temática:** [Ej: Hostelería / Deporte y Salud / Educación / etc.]
-
-#### Descripción del Proyecto
-[Escribe aquí la descripción funcional de tu proyecto. Recuerda: entre 50 y 100 palabras, redactada de forma clara, enfocada en las necesidades del usuario y SIN mencionar tecnologías concretas.]
