@@ -2,7 +2,7 @@
 
 ¡Bienvenido/a al repositorio central de la asignatura **Proyecto Intermodular** del Ciclo Formativo de Grado Superior en **Desarrollo de Aplicaciones Web (DAW)** del **IES Juan de la Cierva**!
 
-Como tu tutor, mi objetivo es guiarte a lo largo de todo el ciclo de vida de tu proyecto final. Este proyecto es tu oportunidad para demostrar y unificar todos los conocimientos técnicos adquiridos (Servidor, Cliente, Despliegue, Diseño de Interfaces, etc.) en un entorno de desarrollo realista.
+Este proyecto es tu oportunidad para demostrar y unificar todos los conocimientos técnicos adquiridos (Servidor, Cliente, Despliegue, Diseño de Interfaces, etc.) en un entorno de desarrollo realista.
 
 Recuerda que este es un proyecto de carácter individual (un solo programador) que requerirá aproximadamente 7 meses de trabajo combinando dedicación parcial y completa. Tendrá un enfoque puramente práctico, fuertemente orientado a la implementación, la arquitectura y el código, requiriendo una documentación ágil y simplificada. 
 
@@ -12,7 +12,7 @@ Recuerda que este es un proyecto de carácter individual (un solo programador) q
 
 Antes de comenzar a definir tu idea, es **estrictamente necesario** que conozcas las normas de arquitectura y los mínimos exigibles para que tu desarrollo sea evaluable.
 
-👉 **[Consulta aquí los Requisitos Mínimos y Condiciones del Proyecto](docs/CONDICIONES.md)**
+👉 **[Consulta aquí los Requisitos mínimos y condiciones del proyecto](docs/CONDICIONES.md)**
 
 ---
 
@@ -44,7 +44,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     <tr>
       <td><strong>Checkpoint 3: Diseño</strong></td>
       <td>22 Noviembre</td>
-      <td>Esquema E/R (conceptual y lógico), prototipado en Figma y stack tecnológico.</td>
+      <td>Esquema E/R, prototipado en Figma y stack tecnológico.</td>
     </tr>
     <tr>
       <td><strong>Checkpoint 4: PoC (Prueba de Concepto)</strong></td>
