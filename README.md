@@ -4,8 +4,6 @@
 
 Este proyecto es tu oportunidad para demostrar y unificar todos los conocimientos técnicos adquiridos (Servidor, Cliente, Despliegue, Diseño de Interfaces, etc.) en un entorno de desarrollo realista.
 
-Recuerda que este es un proyecto de carácter individual (un solo programador) que requerirá aproximadamente 7 meses de trabajo combinando dedicación parcial y completa. Tendrá un enfoque puramente práctico, fuertemente orientado a la implementación, la arquitectura y el código, requiriendo una documentación ágil y simplificada. 
-
 ---
 
 ## 📌 Requisitos Obligatorios
