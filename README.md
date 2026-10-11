@@ -4,7 +4,7 @@
 
 Como tu tutor, mi objetivo es guiarte a lo largo de todo el ciclo de vida de tu proyecto final. Este proyecto es tu oportunidad para demostrar y unificar todos los conocimientos técnicos adquiridos (Servidor, Cliente, Despliegue, Diseño de Interfaces, etc.) en un entorno de desarrollo realista.
 
-Recuerda que este es un proyecto de carácter individual (un solo programador) que requerirá aproximadamente 7 meses de trabajo combinando dedicación parcial y completa. Tendrá un enfoque puramente práctico, fuertemente orientado a la implementación, la arquitectura y el código, requiriendo una documentación ágil y simplificada[cite: 1]. 
+Recuerda que este es un proyecto de carácter individual (un solo programador) que requerirá aproximadamente 7 meses de trabajo combinando dedicación parcial y completa. Tendrá un enfoque puramente práctico, fuertemente orientado a la implementación, la arquitectura y el código, requiriendo una documentación ágil y simplificada. 
 
 ---
 
@@ -60,19 +60,19 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
       <td><strong>DESARROLLO</strong><br><em>(Febrero - Mayo)</em></td>
       <td><strong>Codificación, pruebas y despliegue</strong></td>
       <td>Febrero - Mayo</td>
-      <td>Implementación del software durante la estancia en la empresa. Seguimiento continuo mediante bitácora semanal y control de commits en GitHub[cite: 1].</td>
+      <td>Implementación del software durante la estancia en la empresa. Seguimiento continuo mediante bitácora semanal y control de commits en GitHub.</td>
     </tr>
     <tr>
       <td><strong>ENTREGA FINAL</strong></td>
       <td><strong>Código y documentación final</strong></td>
       <td>Mayo</td>
-      <td>Cierre del repositorio en GitHub, despliegue en producción y guías de uso[cite: 1].</td>
+      <td>Cierre del repositorio en GitHub, despliegue en producción y guías de uso.</td>
     </tr>
     <tr>
       <td><strong>DEFENSA</strong></td>
       <td><strong>Exposición oral</strong></td>
       <td>Finales de Mayo / Principios de Junio</td>
-      <td>Exposición, demostración en producción y defensa del proyecto ante el tribunal docente[cite: 1].</td>
+      <td>Exposición, demostración en producción y defensa del proyecto ante el tribunal docente.</td>
     </tr>
   </tbody>
 </table>
