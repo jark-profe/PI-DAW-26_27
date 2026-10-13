@@ -16,12 +16,12 @@ Estos son los condicionantes estructurales obligatorios que debe cumplir todo pr
 ## 2. Requisitos Base
 Estas son las operativas y características mínimas que debe realizar vuestra aplicación web (el "qué" hace el sistema). 
 
-📝 **Nota para la redacción:** No copiéis y peguéis esta lista en vuestra entrega. Deberéis tomar esta base y **redactarla adaptándola a la temática de vuestro proyecto**.
 * **Gestión de Roles:** El sistema debe contar con al menos tres niveles de usuario (Usuario Administrador, Usuario Registrado y Usuario Anónimo).
 * **Autenticación:** La aplicación deberá ofrecer un sistema seguro de registro e inicio de sesión para los usuarios (login/logout).
 * **Gestión de Perfil:** Todo usuario registrado deberá tener la posibilidad de visualizar y modificar su información de perfil.
 * **Gestión de Vistas y Permisos:** El sistema deberá restringir el acceso a la información y a las acciones en función del rol del usuario. 
 * **Operaciones CRUD:** La plataforma deberá permitir a los usuarios registrados (según su nivel de permisos) crear, listar, editar y borrar los elementos principales de información del sistema.
+📝 **Nota:** Estos requisitos deberán adaptarse y plasmarse en la lista de Requisitos Funcionales de vuestra aplicación. No copiéis y peguéis esta lista en vuestra entrega. Deberéis tomar esta base y **redactarla adaptándola a los usuarios de vuestro proyecto**.
 
 ---
 
