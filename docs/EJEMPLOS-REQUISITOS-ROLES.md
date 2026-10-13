@@ -21,7 +21,7 @@
 * **Entrenador:** Empleado encargado de impartir las clases.
 * **Gerente (Admin):** Personal de gestión global del centro deportivo.
 
-### ⚙️ Requisitos Funcionales (RF)
+### ⚙️ Ejemplos de algunos Requisitos Funcionales (RF)
 
 | Código | Rol | Descripción del Requisito |
 | :--- | :--- | :--- |
@@ -48,7 +48,7 @@
 * **Vendedor:** Proveedor que oferta sus productos locales.
 * **Administrador:** Gestor global de la plataforma e-commerce.
 
-### ⚙️ Requisitos Funcionales (RF)
+### ⚙️ Ejemplos de algunos Requisitos Funcionales (RF)
 
 | Código | Rol | Descripción del Requisito |
 | :--- | :--- | :--- |
@@ -74,7 +74,7 @@
 * **Hortelano:** Usuario registrado activo en la comunidad.
 * **Coordinador-Moderador (Admin):** Responsable municipal encargado de la supervisión del espacio y las actividades.
 
-### ⚙️ Requisitos Funcionales (RF)
+### ⚙️ Ejemplos de algunos Requisitos Funcionales (RF)
 
 | Código | Rol | Descripción del Requisito |
 | :--- | :--- | :--- |
@@ -101,7 +101,7 @@
 * **Técnico de Mantenimiento:** Operario encargado de resolver las averías asignadas.
 * **Responsable de Infraestructuras (Admin):** Gestor del servicio, reparto de cargas y análisis de métricas.
 
-### ⚙️ Requisitos Funcionales (RF)
+### ⚙️ Ejemplos de algunos Requisitos Funcionales (RF)
 
 | Código | Rol | Descripción del Requisito |
 | :--- | :--- | :--- |
