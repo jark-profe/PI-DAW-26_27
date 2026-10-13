@@ -105,7 +105,7 @@
 
 | Código | Rol | Descripción del Requisito |
 | :--- | :--- | :--- |
-| **RF-ANON01** | Anónimo | Acceder a la pantalla de autenticación (Login) y consultar la base de conocimiento/FAQ pública de soporte. |
+| **RF-ANON01** | Anónimo | Acceder a la pantalla de autenticación (Login) y consultar una guía (FAQ) pública de soporte. |
 | **RF01** | Empleado | Registrar un nuevo parte de incidencia indicando ubicación, tipo de avería, descripción y nivel de urgencia. |
 | **RF02** | Empleado | Consultar el estado actualizado de sus partes registrados (Pendiente, En Proceso, Resuelto). |
 | **RF03** | Técnico | Actualizar la fase del parte asignado e incluir observaciones técnicas sobre la reparación realizada. |
