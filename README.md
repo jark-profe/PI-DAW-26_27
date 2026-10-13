@@ -51,7 +51,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     </tr>
     <tr>
       <td><strong>Entrega final Anteproyecto</strong></td>
-      <td>((Por definir))</td>
+      <td>(Por definir)</td>
       <td>Calificación oficial de <strong>APTO / NO APTO</strong>. <em>(Requisito indispensable para pasar a la fase de codificación).</em></td>
     </tr>
     <tr>
