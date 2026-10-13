@@ -23,8 +23,8 @@
 ### 👥 Roles del Sistema
 * **Anónimo:** Visitante público no autenticado.
 * **Socio:** Cliente del centro con suscripción activa.
-* **Entrenador / Monitor:** Empleado encargado de impartir las clases.
-* **Administrador / Gerente:** Personal de gestión global del centro deportivo.
+* **Entrenador:** Empleado encargado de impartir las clases.
+* **Gerente (Admin):** Personal de gestión global del centro deportivo.
 
 ### ⚙️ Requisitos Funcionales (RF)
 
@@ -50,7 +50,7 @@
 ### 👥 Roles del Sistema
 * **Anónimo:** Visitante o comprador potencial sin sesión iniciada.
 * **Cliente:** Comprador registrado en la plataforma.
-* **Vendedor / Productor:** Proveedor que oferta sus productos locales.
+* **Vendedor:** Proveedor que oferta sus productos locales.
 * **Administrador:** Gestor global de la plataforma e-commerce.
 
 ### ⚙️ Requisitos Funcionales (RF)
@@ -76,8 +76,8 @@
 
 ### 👥 Roles del Sistema
 * **Anónimo:** Vecino o visitante sin registro en el portal.
-* **Hortelano / Vecino:** Usuario registrado activo en la comunidad.
-* **Coordinador / Moderador:** Responsable municipal encargado de la supervisión del espacio y las actividades.
+* **Hortelano:** Usuario registrado activo en la comunidad.
+* **Coordinador-Moderador (Admin):** Responsable municipal encargado de la supervisión del espacio y las actividades.
 
 ### ⚙️ Requisitos Funcionales (RF)
 
@@ -102,7 +102,7 @@
 
 ### 👥 Roles del Sistema
 * **Anónimo:** Usuario no autenticado en la red interna.
-* **Empleado / Solicitante:** Personal de la organización que reporta incidencias.
+* **Empleado:** Personal de la organización que reporta incidencias.
 * **Técnico de Mantenimiento:** Operario encargado de resolver las averías asignadas.
 * **Responsable de Infraestructuras (Admin):** Gestor del servicio, reparto de cargas y análisis de métricas.
 
