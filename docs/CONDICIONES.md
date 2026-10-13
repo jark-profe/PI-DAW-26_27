@@ -21,6 +21,7 @@ Estas son las operativas y características mínimas que debe realizar vuestra a
 * **Gestión de Perfil:** Todo usuario registrado deberá tener la posibilidad de visualizar y modificar su información de perfil.
 * **Gestión de Vistas y Permisos:** El sistema deberá restringir el acceso a la información y a las acciones en función del rol del usuario. 
 * **Operaciones CRUD:** La plataforma deberá permitir a los usuarios registrados (según su nivel de permisos) crear, listar, editar y borrar los elementos principales de información del sistema.
+
 📝 **Nota:** Estos requisitos deberán adaptarse y plasmarse en la lista de Requisitos Funcionales de vuestra aplicación. No copiéis y peguéis esta lista en vuestra entrega. Deberéis tomar esta base y **redactarla adaptándola a los usuarios de vuestro proyecto**.
 
 ---
