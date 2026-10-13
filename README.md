@@ -30,12 +30,12 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
   <tbody>
     <tr>
       <td rowspan="5"><strong><a href="docs/ANTEPROYECTO.md">ANTEPROYECTO</a></strong><br><em>(Octubre - Enero)</em></td>
-      <td><strong><a href="docs/CHECKPOINT1.md">Checkpoint 1: Definición inicial</a></strong></td>
+      <td><strong><a href="docs/CP1/CHECKPOINT1.md">Checkpoint 1: Definición inicial</a></strong></td>
       <td>11 Octubre</td>
       <td>Definición de la idea, título, temática y descripción del alcance.</td>
     </tr>
     <tr>
-      <td><strong><a href="docs/CHECKPOINT2.md">Checkpoint 2: Análisis</a></strong></td>
+      <td><strong><a href="docs/CP2/CHECKPOINT2.md">Checkpoint 2: Análisis</a></strong></td>
       <td>25 Octubre</td>
       <td>Requisitos Funcionales (RF), definición de roles y mapa de vistas.</td>
     </tr>
