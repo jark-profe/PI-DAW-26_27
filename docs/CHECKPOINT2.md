@@ -41,11 +41,6 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
 
 ## 💡 Ejemplos de redacción correcta
 
-### Ejemplo de Requisitos Funcionales (RF):
-* **`RF-01` — Registro de usuarios:** El sistema permitirá a usuarios anónimos registrarse proporcionando nombre, email y contraseña.
-* **`RF-02` — Gestión de productos (CRUD):** El administrador podrá crear, listar, editar y eliminar productos del catálogo.
-* **`RF-03` — Búsqueda y filtrado:** El usuario cliente podrá buscar productos a través de texto y filtrarlos por categoría y rango de precio.
-
 ### Ejemplo de Clasificación de Vistas:
 * **Públicas:**
   * `/` — Página principal de bienvenida.
@@ -57,3 +52,5 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
 * **Gestión:**
   * `/admin/dashboard` — Métricas generales y panel principal.
   * `/admin/productos` — Listado y gestión CRUD de productos.
+
+👉 **[Consulta aquí ejemplos de Requisitos y Roles](docs/EJEMPLOS-REQUISITOS-ROLES.md)**
