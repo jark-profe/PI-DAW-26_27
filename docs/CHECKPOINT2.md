@@ -53,4 +53,4 @@ Asegúrate de revisar estos puntos antes de realizar tu entrega:
   * `/admin/dashboard` — Métricas generales y panel principal.
   * `/admin/productos` — Listado y gestión CRUD de productos.
 
-👉 **[Consulta aquí ejemplos de Requisitos y Roles](docs/EJEMPLOS-REQUISITOS-ROLES.md)**
+👉 **[Consulta aquí ejemplos de Requisitos y Roles](EJEMPLOS-REQUISITOS-ROLES.md)**
