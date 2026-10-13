@@ -46,12 +46,12 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     </tr>
     <tr>
       <td><strong>Checkpoint 4: PoC (Prueba de Concepto)</strong></td>
-      <td>13 Diciembre</td>
+      <td>10 Enero</td>
       <td>Desarrollo del MVP (Minimum Viable Product) y vídeo-demo de validación.</td>
     </tr>
     <tr>
       <td><strong>Entrega final Anteproyecto</strong></td>
-      <td>~17 Enero</td>
+      <td>17 Enero</td>
       <td>Calificación oficial de <strong>APTO / NO APTO</strong>. <em>(Requisito indispensable para pasar a la fase de codificación).</em></td>
     </tr>
     <tr>
