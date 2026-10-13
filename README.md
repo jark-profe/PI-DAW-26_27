@@ -55,7 +55,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
       <td>Calificación oficial de <strong>APTO / NO APTO</strong>. <em>(Requisito indispensable para pasar a la fase de codificación).</em></td>
     </tr>
     <tr>
-      <td><strong>DESARROLLO</strong><br><em>(Febrero - Mayo)</em></td>
+      <td><strong>DESARROLLO</strong></td>
       <td><strong>Codificación, pruebas y despliegue</strong></td>
       <td>Febrero - Mayo</td>
       <td>Implementación del software durante la estancia en la empresa. Seguimiento continuo mediante bitácora semanal y control de commits en GitHub.</td>
@@ -63,13 +63,13 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     <tr>
       <td><strong>ENTREGA FINAL</strong></td>
       <td><strong>Código y documentación final</strong></td>
-      <td>Mayo</td>
+      <td>Por definir</td>
       <td>Cierre del repositorio en GitHub, despliegue en producción y guías de uso.</td>
     </tr>
     <tr>
       <td><strong>DEFENSA</strong></td>
       <td><strong>Exposición oral</strong></td>
-      <td>Finales de Mayo / Principios de Junio</td>
+      <td>Por definir</td>
       <td>Exposición, demostración en producción y defensa del proyecto ante el tribunal docente.</td>
     </tr>
   </tbody>
