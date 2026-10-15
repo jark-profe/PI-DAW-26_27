@@ -39,7 +39,6 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     <tr>
       <td><strong>Checkpoint 3: Diseño</strong></td>
       <td>(Por definir)</td>
-      <td>Esquema E/R, prototipado en Figma y stack tecnológico.</td>
     </tr>
     <tr>
       <td><strong>Checkpoint 4: PoC (Prueba de Concepto)</strong></td>
