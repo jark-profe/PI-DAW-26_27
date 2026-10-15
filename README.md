@@ -28,7 +28,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
   </thead>
   <tbody>
     <tr>
-      <td rowspan="5"><strong><a href="docs/ANTEPROYECTO.md">ANTEPROYECTO</a></strong><br><em>(Octubre - Enero)</em></td>
+      <td rowspan="5"><strong>ANTEPROYECTO</strong><br><em>(Octubre - Enero)</em></td>
       <td><strong><a href="docs/CP1/CHECKPOINT1.md">Checkpoint 1: Definición inicial</a></strong></td>
       <td>11 Octubre</td>
     </tr>
