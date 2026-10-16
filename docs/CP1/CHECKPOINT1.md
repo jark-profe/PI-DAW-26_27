@@ -14,7 +14,7 @@ Deberás completar la sección del Checkpoint 1 en tu repositorio de GitHub incl
 2. **Tipo de Aplicación:** Categoría o tipología del proyecto (ej. *Plataforma de gestión, E-commerce, Red social temática, Plataforma de reservas, Gestor de eventos, etc.*).
 3. **Temática:** Sector o ámbito específico en el que se enfoca (ej. *Educación, Salud, Deporte, Hostelería, Logística, Entretenimiento, Cultura, Música, Videojuegos, etc.*).
 4. **Descripción del Proyecto:** Un resumen explícito de **entre 50 y 100 palabras** explicando en qué consiste la aplicación, a quién va dirigida y cuales son sus funcionalidades clave.
-   * ⚠️ **REGLA OBLIGATORIA:** En la descripción **NO se deben mencionar tecnologías concretas** (no pongáis cosas como *"desarrollada con React y Laravel"* o *"con base de datos MySQL"*).
+   * ⚠️ **RECUERDA:** En la descripción **NO se deben mencionar tecnologías concretas** (no pongáis cosas como *"desarrollada con React y Laravel"* o *"con base de datos MySQL"*).
 
 ---
 
