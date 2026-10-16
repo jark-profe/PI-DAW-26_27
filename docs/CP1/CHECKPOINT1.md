@@ -20,7 +20,7 @@ Deberás completar la sección del Checkpoint 1 en tu repositorio de GitHub incl
 
 ## ⛔ Errores frecuentes que causan un "NO APTO"
 
-Para obtener el **APTO** en Moodle/GitHub en este hito, asegúrate de no cometer los siguientes errores habituales:
+Asegúrate de no cometer los siguientes errores habituales:
 
 * **Sobredimensionar el alcance (Efecto IA):** Si le pides a una IA que redacte tu idea, suele incluir muchas funcionalidades, pasarelas de pago complejas, chatbots avanzados, motores de recomendación o analítica masiva. Recuerda que todo eso **luego lo tendrás que programar**. 
 * **Mencionar tecnologías en la descripción:** La descripción en esta fase debe ser estrictamente funcional (qué hace la app, no cómo está programada). Las tecnologías se seleccionarán y justificarán más adelante.
