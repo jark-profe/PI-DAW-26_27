@@ -1,13 +1,21 @@
-# 📝 Ejemplos: Definición de Roles y Requisitos Funcionales (RF)
-
-## 📌 Guía para definir los códigos de los requistios
+# 📌 Guía para definir los roles
 
 1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Solo puede acceder a vistas públicas y no persiste datos en la base de datos.
-2. **Usuarios Registrados:** Usuarios que se dan de alta mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
+2. **Usuarios Registrados:** Usuarios que se dan de alta, generalmente mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
 3. **Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso.
-4. **Requisitos del Sistema (`RF-SYS`):** Funcionalidades, automatismos o reglas de negocio que ejecuta la aplicación en segundo plano, sin requerir una acción explícita por parte de ningún usuario.
 
 ---
+
+# 📌 Guía para definir los Requisitos Funcionales (RF)
+
+Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
+
+1. **Requisitos de usuario (`RF`):** Aqui definimos qué puede hacer un usuario con cierto rol.
+2. **Requisitos del Sistema (`RF-SYS`):** Funcionalidades, automatismos o reglas de negocio que ejecuta la aplicación en segundo plano, sin requerir una acción explícita por parte de ningún usuario.
+
+---
+
+# 📝 Ejemplos: Definición de Roles y Requisitos Funcionales (RF)
 
 ## 1️⃣ Caso 1: GymFlex
 
