@@ -19,7 +19,7 @@ Listado numerado y explicativo de todas las acciones, características y funcion
 * **Formato:** Cada requisito debe tener un código identificador (ej: `RF-01`, `RF-02`), un título claro que indique qué permite hacer.
 * ⚠️ **REGLA OBLIGATORIA:** **NO incluyas Requisitos No Funcionales** (rendimiento, tiempos de respuesta, tecnología a usar, etc.). Enfócate únicamente en las funcionalidades que usa el usuario.
 
-### 3. Proximamente...
+### 3. [Proximamente]...
 
 ---
 
