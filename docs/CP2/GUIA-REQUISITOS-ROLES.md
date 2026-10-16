@@ -21,7 +21,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 * **Tipo:** Gestión de Reservas  
 * **Área:** Salud y Deporte (Gimnasio Local)  
-* **Descripción:** Sistema web para un gimnasio de barrio que permite a los socios consultar la disponibilidad de clases dirigidas (Spinning, Yoga, Pilates), reservar su plaza con antelación y cancelar si no pueden asistir. Además, los entrenadores pueden consultar la lista de asistentes a sus clases y la gerencia puede gestionar el catálogo de actividades, horarios y el aforo máximo de cada sala.
+* **Descripción:** Sistema web para un gimnasio de barrio que permite a los socios consultar la disponibilidad de clases dirigidas (Spinning, Yoga, Pilates), reservar su plaza con antelación y cancelar si no pueden asistir. Además, los entrenadores pueden consultar la lista de asistentes a sus clases y la gerencia puede gestionar el catálogo de actividades, horarios, salas y entrenadores.
 
 ### 👥 Roles del Sistema
 * **Anónimo:** Visitante público no autenticado.
@@ -38,7 +38,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 | **RF-03** | Socio | Reservar plaza en una clase dirigida si existe aforo disponible. |
 | **RF-04** | Socio | Cancelar una reserva previa dentro del plazo límite establecido por el centro. |
 | **RF-05** | Entrenador | Consultar la lista actualizada de socios inscritos en sus clases asignadas del día. |
-| **RF-06** | Administrador | Crear, editar, consultar o cancelar salas y sesiones de entrenamiento. |
+| **RF-06** | Administrador | Crear, editar, consultar o cancelar salas, actividades y sesiones de entrenamiento. |
 | **RF-07** | Administrador | Dar de alta, consultar perfil, modificar datos, o dar de baja a los entrenadores. |
 | **RF-SYS-01** | Sistema | Habilitar automáticamente la reserva de cada clase 48 horas antes de su horario de inicio. |
 | **RF-SYS-02** | Sistema | Promocionar automáticamente al primer socio en lista de espera cuando se registra una cancelación. |
