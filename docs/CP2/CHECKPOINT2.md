@@ -19,12 +19,6 @@ Listado numerado y explicativo de todas las acciones, características y funcion
 * **Formato:** Cada requisito debe tener un código identificador (ej: `RF-01`, `RF-02`), un título claro que indique qué permite hacer.
 * ⚠️ **REGLA OBLIGATORIA:** **NO incluyas Requisitos No Funcionales** (rendimiento, tiempos de respuesta, etc.). Enfócate únicamente en las funcionalidades que usa el usuario.
 
-## ⛔ Errores frecuentes que causan un "NO APTO"
-
-* **Hablar de tecnologías:** Escribir requisitos como *"La base de datos será MySQL".
-* **Tener menos de 3 roles:** Proponer un sistema donde solo exista un rol o no se diferencie entre un visitante anónimo y un usuario registrado.
-* **Requisitos vagos o imprecisos:** Usar frases genéricas como *"RF-01: El usuario puede hacer movidas guapas en la web"*. En lugar de eso, sé concreto (ej: *"RF-01: El usuario anónimo puede registrarse mediante correo y contraseña"*).
-
 👉 **[Consulta aquí ejemplos de Requisitos y Roles](EJEMPLOS-REQUISITOS-ROLES.md)**
 
 ### 3. [Proximamente]...
