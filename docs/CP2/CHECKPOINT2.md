@@ -17,7 +17,7 @@ Definición  de los diferentes tipos de usuarios que interactuarán con la plata
 ### 2. Requisitos Funcionales (RF)
 Listado numerado y explicativo de todas las acciones, características y funcionalidades que el sistema debe permitir realizar.
 * **Formato:** Cada requisito debe tener un código identificador (ej: `RF-01`, `RF-02`), un título claro que indique qué permite hacer.
-* ⚠️ **REGLA OBLIGATORIA:** **NO incluyas Requisitos No Funcionales** (rendimiento, tiempos de respuesta, tecnología a usar, etc.). Enfócate únicamente en las funcionalidades que usa el usuario.
+* ⚠️ **REGLA OBLIGATORIA:** **NO incluyas Requisitos No Funcionales** (rendimiento, tiempos de respuesta, etc.). Enfócate únicamente en las funcionalidades que usa el usuario.
 
 ### 3. [Proximamente]...
 
