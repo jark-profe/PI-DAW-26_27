@@ -112,3 +112,29 @@
 | **RF-05** | Administrador | Asignar o derivar manualmente partes de incidencias entre técnicos y modificar prioridades. |
 | **RF-SYS-01** | Sistema | Asignar automáticamente el parte al área técnica correspondiente según la categoría seleccionada. |
 | **RF-SYS-02** | Sistema | Enviar una notificación automática (email/interna) al empleado cuando el estado de su incidencia se actualice. |
+
+---
+
+### 🚩 Errores comunes al redactar Requisitos Funcionales (y cómo evitarlos)
+
+Para que los Requisitos Funcionales (RF) sean útiles y os sirvan de guía para diseñar la base de datos más adelante, deben ser precisos, medibles y no dejar nada a la imaginación. 
+
+Aquí tenéis los 3 errores más clásicos que suponen un "No Apto":
+
+#### 1. Requisitos vagos o imprecisos (El "verbo trampa")
+Los verbos genéricos como "gestionar", "administrar" o "comprar" ocultan muchas acciones y no nos dicen qué datos hay que guardar. Hay que desglosar la acción real.
+* ❌ **Mal:** *"RF-01: El usuario puede comprar cosas en la web."*
+* ✅ **Bien:** *"RF-01: El usuario registrado puede añadir, modificar la cantidad y eliminar productos de su carrito de la compra."*
+> 💡 *Por qué importa:* El requisito bien escrito ya te sugiere exactamente qué entidades vas a necesitar modelar luego (`Usuario`, `Producto`, `Carrito`).
+
+#### 2. Olvidar los roles y permisos (El "requisito fantasma")
+Si una acción no dice **quién** la ejecuta, es un error de diseño. No todos los usuarios pueden hacer de todo en un sistema real.
+* ❌ **Mal:** *"RF-02: Se podrán borrar los comentarios del foro."* (¿Quién? ¿Un invitado? ¿Cualquiera?)
+* ✅ **Bien:** *"RF-02: El usuario con rol 'Autor' puede borrar sus propios comentarios, y el 'Administrador' puede borrar los de cualquier persona."*
+> 💡 *Por qué importa:* Te obliga a tener en cuenta la tabla de `Roles` o `Permisos` desde el principio y evita fallos graves de seguridad en la aplicación.
+
+#### 3. Mezclar diseño (UI) con funcionalidad (Backend)
+El Análisis define **QUÉ** hace el sistema, no **CÓMO** se ve o implementa. Guardad los colores, los botones y la maquetación para la fase de Diseño.
+* ❌ **Mal:** *"RF-03: Habrá un menú lateral azul con un botón grande para ver el perfil."*
+* ✅ **Bien:** *"RF-03: El sistema permitirá al usuario registrado consultar y actualizar los datos de su perfil personal (nombre, email y contraseña)."*
+> 💡 *Por qué importa:* La interfaz puede cambiar 20 veces (web, móvil, escritorio), pero el requisito de negocio y los datos del perfil siguen siendo los mismos.
