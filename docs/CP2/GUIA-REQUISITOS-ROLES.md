@@ -19,9 +19,9 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 ## 1️⃣ Caso 1: GymFlex
 
-* **Tipo:** Gestión de Reservas  
-* **Área:** Salud y Deporte (Gimnasio Local)  
-* **Descripción:** Sistema web para un gimnasio de barrio que permite a los socios consultar la disponibilidad de clases dirigidas (Spinning, Yoga, Pilates), reservar su plaza con antelación y cancelar si no pueden asistir. Además, los entrenadores pueden consultar la lista de asistentes a sus clases y la gerencia puede gestionar el catálogo de actividades, horarios, salas y entrenadores.
+* **Tipo:** Gestión de reservas  
+* **Área:** Salud y deporte (Gimnasio Local)  
+* **Descripción:** Aplicación web para un gimnasio de barrio que permite a los socios consultar la disponibilidad de clases dirigidas (Spinning, Yoga, Pilates), reservar su plaza con antelación y cancelar si no pueden asistir. Además, los entrenadores pueden consultar la lista de asistentes a sus clases y la gerencia puede gestionar el catálogo de actividades, horarios, salas y entrenadores.
 
 ### 👥 Roles
 * **Anónimo:** Visitante público no autenticado.
@@ -47,8 +47,8 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 ## 2️⃣ Caso 2: EcoMarket
 
-* **Tipo:** Tienda Online (E-commerce)  
-* **Área:** Comercio Local y Sostenible  
+* **Tipo:** Tienda online (E-commerce)  
+* **Área:** Comercio local y sostenible  
 * **Descripción:** Plataforma de e-commerce que permite a pequeños productores locales vender frutas, verduras y productos artesanos directamente al consumidor final. Los clientes pueden explorar el catálogo por categorías, añadir productos a la cesta, gestionar su dirección de envío y realizar el pedido. Los productores pueden actualizar el stock de sus productos y ver los pedidos recibidos, mientras que el administrador supervisa las comisiones y valida el alta de nuevos vendedores.
 
 ### 👥 Roles
@@ -74,8 +74,8 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 ## 3️⃣ Caso 3: HuertoUrbano
 
-* **Tipo:** Plataforma Comunitaria  
-* **Área:** Sostenibilidad y Agricultura Comunitaria  
+* **Tipo:** Plataforma comunitaria  
+* **Área:** Sostenibilidad y agricultura comunitaria  
 * **Descripción:** Plataforma web para la comunidad de usuarios de los huertos urbanos municipales. Permite a los vecinos solicitar una parcela de cultivo, organizar talleres formativos y compartir herramientas o consejos agrícolas. Los usuarios pueden publicar eventos, inscribirse en actividades grupales y ofrecer/pedir herramientas prestadas. El coordinador municipal supervisa la asignación de parcelas y modera el tablón de anuncios.
 
 ### 👥 Roles
@@ -100,15 +100,15 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 ## 4️⃣ Caso 4: FixIt Desk
 
-* **Tipo:** Gestión Interna  
-* **Área:** Mantenimiento e Incidencias Corporativas  
+* **Tipo:** Gestión interna  
+* **Área:** Mantenimiento e incidencias corporativas  
 * **Descripción:** Sistema de gestión interna de incidencias técnicas y de mantenimiento para las instalaciones de una organización. Permite a los empleados reportar averías (equipos informáticos, mobiliario, climatización), categorizarlas por urgencia y hacer seguimiento de su resolución. Los técnicos de mantenimiento reciben los partes, cambian el estado de las tareas y asignan prioridades. El responsable de infraestructura supervisa el rendimiento del equipo y gestiona los recursos asignados.
 
 ### 👥 Roles
 * **Anónimo:** Usuario no autenticado en la red interna.
 * **Empleado:** Personal de la organización que reporta incidencias.
-* **Técnico de Mantenimiento:** Operario encargado de resolver las averías asignadas.
-* **Responsable de Infraestructuras (Admin):** Gestor del servicio, reparto de cargas y análisis de métricas.
+* **Técnico de mantenimiento:** Operario encargado de resolver las averías asignadas.
+* **Responsable de infraestructuras (Admin):** Gestor del servicio, reparto de cargas y análisis de métricas.
 
 ### ⚙️ Ejemplos de algunos Requisitos Funcionales (RF)
 
