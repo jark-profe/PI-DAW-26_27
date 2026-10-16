@@ -2,9 +2,9 @@
 
 ## 📌 Guía para definir los códigos de los requistios
 
-1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Tiene permisos estrictamente de **solo lectura (GET)** sobre recursos públicos. Jam&aacute;s realiza operaciones de escritura (`POST`, `PUT`, `DELETE`) ni persiste datos en la base de datos.
-2. **Usuarios Registrados:** Usuarios que se dan de alta mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Hortelano, Empleado).
-3. **Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto mediante datos de prueba (*seeds*) o consola de comandos, siendo obligatorio el cambio de contraseña tras el primer acceso.
+1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Solo puede acceder a vistas públicas y no persiste datos en la base de datos.
+2. **Usuarios Registrados:** Usuarios que se dan de alta mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
+3. **Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso.
 4. **Requisitos del Sistema (`RF-SYS`):** Funcionalidades, automatismos o reglas de negocio que ejecuta la aplicación en segundo plano, sin requerir una acción explícita por parte de ningún usuario.
 
 ---
