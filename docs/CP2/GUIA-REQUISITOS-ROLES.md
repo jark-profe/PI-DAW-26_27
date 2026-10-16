@@ -19,29 +19,44 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Fórmula:** `RF-SYS-XX: El sistema [ACCIÓN AUTOMÁTICA DE NEGOCIO] cuando [CONDICIÓN]`
 * ✅ **Ejemplo correcto:** *"RF-SYS-01: El sistema liberará una parcela si pasan 48 horas sin recibir el pago."*
 
-## 🛑 CASOS DE RF-SYS QUE ESTÁN MAL
+## 🛑 CASOS DE RF-SYS QUE ESTÁN MAL REDACTADOS
+
+Un Requisito Funcional (`RF` o `RF-SYS`) define **QUÉ hace la aplicación a nivel de negocio**, jamás **CÓMO se configura o valida técnicamente el software**.
+
+---
 
 ### 1. Consultas y vistas de la interfaz (UI)
-Cargar, mostrar o calcular datos al navegar por la app **es un RF de usuario**, jamás un RF-SYS.
+Cargar, mostrar o calcular datos al navegar por la app **es un RF de usuario**, jamás un `RF-SYS`.
 - ❌ *RF-SYS: Mostrar un resumen de cuotas pendientes, incidencias abiertas y gastos de la comunidad.*
 - ❌ *RF-SYS: Calcular el total de gastos o el balance para mostrarlo en el panel principal.*
 - ✅ *RF-01: El Vecino puede consultar el balance global y el resumen de sus cuotas e incidencias.*
+
+---
 
 ### 2. Metadatos y gestión de la base de datos
 Registrar marcas de tiempo de auditoría o definir comportamientos de tablas **son detalles técnicos de persistencia**, no reglas de negocio.
 - ❌ *RF-SYS: Registrar automáticamente la fecha de creación y modificación (`created_at` / `updated_at`).*
 - ❌ *RF-SYS: Aplicar borrado en cascada de los datos vinculados al eliminar un registro.*
+- ✅ **Criterio:** No se redactan como requisito. Se definen directamente en el modelo de datos (ER/ORM).
+
+---
 
 ### 3. Validaciones de formulario
-Verificar formatos de campos o comprobar datos obligatorios al enviar un formulario **es lógica de la interfaz/entrada**, no una regla de negocio del sistema.
+Verificar formatos de campos o comprobar datos obligatorios **es lógica de la interfaz/entrada**, no una regla de negocio del sistema.
 - ❌ *RF-SYS: Validar que el DNI tenga un formato correcto y el importe sea mayor que cero antes de guardar.*
 - ❌ *RF-SYS: Comprobar que todos los campos obligatorios estén rellenos al crear un aviso.*
+- ✅ **Criterio:** No se redactan como requisito. Se asumen como buenas prácticas de desarrollo en el frontend/backend.
 
-### 4. Control de acceso y sesión (RNF)
-La gestión de permisos de navegación o el mantenimiento de la sesión del usuario **son Requisitos No Funcionales (RNF)**.
-- ❌ *RF-SYS: Permitir el acceso a la gestión de gastos solo a usuarios con rol Administrador.*
-- ❌ *RF-SYS: Cerrar la sesión del usuario tras un tiempo prolongado de inactividad.*
+---
 
+### 4. Permisos de rol vs. Parámetros de configuración
+No confundas las restricciones de acceso por rol con los parámetros de configuración técnica de la aplicación.
+- **Permisos por Rol:** Restringir una acción según el perfil **SÍ es un Requisito Funcional de Usuario (`RF`)**.
+  - ❌ *RF-SYS: Permitir el acceso a la gestión de gastos solo a usuarios con rol Administrador.*
+  - ✅ *RF-02: El Usuario Administrador puede gestionar los gastos de la comunidad.*
+- **Parámetros de Sesión (Timeout/Inactividad):** La caducidad de la sesión por inactividad o el cifrado de claves **son configuraciones técnicas**.
+  - ❌ *RF-SYS: Cerrar la sesión del usuario tras un tiempo prolongado de inactividad.*
+  - ✅ **Criterio:** No se redactan como requisito funcional. Se configuran directamente en el código de la aplicación.
 ---
 
 # 📝 Ejemplos: Definición de Roles y Requisitos Funcionales (RF)
