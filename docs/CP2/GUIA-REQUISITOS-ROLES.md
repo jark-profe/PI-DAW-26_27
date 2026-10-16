@@ -11,7 +11,38 @@
 Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 
 1. **Requisitos de usuario (`RF`):** Aqui definimos qué puede hacer un usuario con cierto rol.
+* **Fórmula:** `RF-XX: El [ROL] puede [ACCIÓN DE NEGOCIO] sobre [ENTIDAD]`
+* ✅ **Ejemplo correcto:** *"RF-01: El Usuario Registrado puede cancelar un pedido."*
+* ❌ **Ejemplo incorrecto:** *"RF-01: El cliente tendrá un formulario CRUD para los pedidos."* (No usar lenguaje técnico).
+  
 2. **Requisitos del Sistema (`RF-SYS`):** Funcionalidades, automatismos o reglas de negocio que ejecuta la aplicación en segundo plano, sin requerir una acción explícita por parte de ningún usuario.
+* **Fórmula:** `RF-SYS-XX: El sistema [ACCIÓN AUTOMÁTICA DE NEGOCIO] cuando [CONDICIÓN]`
+* ✅ **Ejemplo correcto:** *"RF-SYS-01: El sistema liberará una parcela si pasan 48 horas sin recibir el pago."*
+
+## 🛑 CASOS QUE NO DEBEN INCLUIRSE EN ESTA ENTREGA
+
+Si un requisito cae en cualquiera de estas categorías, **la entrega será devuelta para reescritura**:
+
+### 1. Consultas y vistas de la interfaz (UI)
+Cargar, mostrar o calcular datos al navegar por la app **es un RF de usuario**, jamás un RF-SYS.
+- ❌ *RF-SYS: Mostrar un resumen de cuotas pendientes, incidencias abiertas y gastos de la comunidad.*
+- ❌ *RF-SYS: Calcular el total de gastos o el balance para mostrarlo en el panel principal.*
+- ✅ *RF-01: El Vecino puede consultar el balance global y el resumen de sus cuotas e incidencias.*
+
+### 2. Metadatos y gestión de la base de datos
+Registrar marcas de tiempo de auditoría o definir comportamientos de tablas **son detalles técnicos de persistencia**, no reglas de negocio.
+- ❌ *RF-SYS: Registrar automáticamente la fecha de creación y modificación (`created_at` / `updated_at`).*
+- ❌ *RF-SYS: Aplicar borrado en cascada de los datos vinculados al eliminar un registro.*
+
+### 3. Validaciones de formulario
+Verificar formatos de campos o comprobar datos obligatorios al enviar un formulario **es lógica de la interfaz/entrada**, no una regla de negocio del sistema.
+- ❌ *RF-SYS: Validar que el DNI tenga un formato correcto y el importe sea mayor que cero antes de guardar.*
+- ❌ *RF-SYS: Comprobar que todos los campos obligatorios estén rellenos al crear un aviso.*
+
+### 4. Control de acceso y sesión (RNF)
+La gestión de permisos de navegación o el mantenimiento de la sesión del usuario **son Requisitos No Funcionales (RNF)**.
+- ❌ *RF-SYS: Permitir el acceso a la gestión de gastos solo a usuarios con rol Administrador.*
+- ❌ *RF-SYS: Cerrar la sesión del usuario tras un tiempo prolongado de inactividad.*
 
 ---
 
