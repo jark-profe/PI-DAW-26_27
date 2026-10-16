@@ -19,9 +19,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Fórmula:** `RF-SYS-XX: El sistema [ACCIÓN AUTOMÁTICA DE NEGOCIO] cuando [CONDICIÓN]`
 * ✅ **Ejemplo correcto:** *"RF-SYS-01: El sistema liberará una parcela si pasan 48 horas sin recibir el pago."*
 
-## 🛑 CASOS QUE NO DEBEN INCLUIRSE EN ESTA ENTREGA
-
-Si un requisito cae en cualquiera de estas categorías, **la entrega será devuelta para reescritura**:
+## 🛑 CASOS DE RF-SYS QUE ESTÁN MAL
 
 ### 1. Consultas y vistas de la interfaz (UI)
 Cargar, mostrar o calcular datos al navegar por la app **es un RF de usuario**, jamás un RF-SYS.
