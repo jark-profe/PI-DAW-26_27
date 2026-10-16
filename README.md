@@ -6,7 +6,7 @@ Este proyecto es tu oportunidad para demostrar y unificar todos los conocimiento
 
 ---
 
-## 📌 Requisitos Obligatorios
+## 📌 Requisitos obligatorios
 
 Antes de comenzar, es **estrictamente necesario** que conozcas los mínimos exigibles para que tu desarrollo sea evaluable.
 
