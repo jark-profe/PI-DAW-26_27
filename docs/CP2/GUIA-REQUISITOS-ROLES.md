@@ -73,8 +73,9 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 ---
 
 ## 3️⃣ Caso 3: HuertoUrbano (Gestión de parcelas y comunidad)
-
-**Descripción:** Plataforma web para organizar un huerto urbano municipal. Permite solicitar parcelas libres, publicar anuncios para prestar herramientas y apuntarse a talleres. 
+* **Tipo:** Plataforma comunitaria
+* **Área:** Sostenibilidad y agricultura comunitaria
+* **Descripción:** HuertoUrbano es una plataforma web orientada a fomentar la agricultura sostenible y la comunidad vecinal mediante la digitalización de un huerto municipal. El sistema permite a los ciudadanos registrarse para consultar el calendario público y solicitar formalmente la asignación de parcelas libres controladas por el ayuntamiento. Además de administrar el espacio físico, la aplicación funciona como un punto de encuentro virtual donde los hortelanos pueden publicar anuncios para el préstamo de herramientas agrícolas e inscribirse en talleres formativos organizados por el coordinador del recinto, creando así un ecosistema colaborativo.
 
 ### 👥 Roles
 * **Anónimo:** Visitante público.
