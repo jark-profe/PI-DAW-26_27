@@ -1,8 +1,8 @@
 # 📌 Guía para definir los Roles
 
-1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Solo puede acceder a vistas públicas y no persiste datos en la base de datos.
-2. **Rol de Usuario Registrado:** Usuarios que se dan de alta, generalmente mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
-3. **Rol de Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso.
+1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Solo puede acceder a vistas públicas.
+2. **Rol de Usuario Registrado:** Usuarios que se dan de alta, generalmente mediante un formulario público de registro (Sign Up). Una vez autenticado en la aplicación, podrá tener acceso a ciertas vistas privadas acotadas según su rol.
+3. **Rol de Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso. Una vez autenticado, tendrá acceso a vistas administrativas.
 
 ---
 
