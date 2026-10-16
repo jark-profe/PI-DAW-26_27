@@ -12,7 +12,7 @@ Estos son los condicionantes estructurales obligatorios que debe cumplir todo pr
 
 * **Despliegue en producción:** La aplicación deberá estar desplegada y plenamente operativa en un servidor de producción (tipo AWS, VPS, Heroku, etc.).
 
-## 2. Requisitos Base
+## 2. Requisitos base del desarrollo
 Estas son las operativas y características mínimas que debe realizar vuestra aplicación web. 
 
 * **Gestión de Roles:** El sistema debe contar con al menos **tres niveles de usuario** (Usuario Administrador, Usuario Registrado y Usuario Anónimo).
