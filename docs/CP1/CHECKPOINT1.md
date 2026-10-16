@@ -22,7 +22,7 @@ Deberás completar la sección del Checkpoint 1 en tu repositorio de GitHub incl
 
 Asegúrate de no cometer los siguientes errores habituales:
 
-* **Sobredimensionar el alcance (Efecto IA):** Si le pides a una IA que redacte tu idea, suele incluir muchas funcionalidades, pasarelas de pago complejas, chatbots avanzados, motores de recomendación o analítica masiva. Recuerda que todo eso **luego lo tendrás que programar**. 
+* **Sobredimensionar el alcance:** Es un error muy común, sobre todo si le pides a una IA que redacte tu idea, intentar incluir muchas funcionalidades, pasarelas de pago complejas, chatbots avanzados, integración con herramientas externas, etc. Recuerda que todo eso **luego lo tendrás que programar**. 
 * **Mencionar tecnologías en la descripción:** La descripción en esta fase debe ser estrictamente funcional (qué hace la app, no cómo está programada). Las tecnologías se seleccionarán y justificarán más adelante.
 * **Proponer una página web estática:** Si tu idea no requiere base de datos, autenticación de usuarios ni gestión de permisos (CRUD), no es válida para un perfil DAW.
 * **Extensión incorrecta:** Presentar descripciones de menos de 50 palabras (vagas) o de más de 100 palabras.
