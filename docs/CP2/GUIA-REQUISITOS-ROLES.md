@@ -1,8 +1,8 @@
-# 📌 Guía para definir los roles
+# 📌 Guía para definir los Roles
 
 1. **Rol An&oacute;nimo:** Representa al usuario no autenticado (visitante público). Solo puede acceder a vistas públicas y no persiste datos en la base de datos.
-2. **Usuarios Registrados:** Usuarios que se dan de alta, generalmente mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
-3. **Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso.
+2. **Rol de Usuario Registrado:** Usuarios que se dan de alta, generalmente mediante un formulario público de registro (Sign Up) con credenciales válidas y permisos acotados a su perfil (ej. Socio, Cliente, Empleado).
+3. **Rol de Administrador:** Rol con privilegios globales sobre la plataforma. NO dispone de formulario de registro público. Sus credenciales se generan por defecto, siendo obligatorio el cambio de contraseña tras el primer acceso.
 
 ---
 
@@ -23,7 +23,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Área:** Salud y Deporte (Gimnasio Local)  
 * **Descripción:** Sistema web para un gimnasio de barrio que permite a los socios consultar la disponibilidad de clases dirigidas (Spinning, Yoga, Pilates), reservar su plaza con antelación y cancelar si no pueden asistir. Además, los entrenadores pueden consultar la lista de asistentes a sus clases y la gerencia puede gestionar el catálogo de actividades, horarios, salas y entrenadores.
 
-### 👥 Roles del Sistema
+### 👥 Roles
 * **Anónimo:** Visitante público no autenticado.
 * **Socio:** Cliente del centro con suscripción activa.
 * **Entrenador:** Empleado encargado de impartir las clases.
@@ -51,7 +51,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Área:** Comercio Local y Sostenible  
 * **Descripción:** Plataforma de e-commerce que permite a pequeños productores locales vender frutas, verduras y productos artesanos directamente al consumidor final. Los clientes pueden explorar el catálogo por categorías, añadir productos a la cesta, gestionar su dirección de envío y realizar el pedido. Los productores pueden actualizar el stock de sus productos y ver los pedidos recibidos, mientras que el administrador supervisa las comisiones y valida el alta de nuevos vendedores.
 
-### 👥 Roles del Sistema
+### 👥 Roles
 * **Anónimo:** Visitante o comprador potencial sin sesión iniciada.
 * **Cliente:** Comprador registrado en la plataforma.
 * **Vendedor:** Proveedor que oferta sus productos locales.
@@ -78,7 +78,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Área:** Sostenibilidad y Agricultura Comunitaria  
 * **Descripción:** Plataforma web para la comunidad de usuarios de los huertos urbanos municipales. Permite a los vecinos solicitar una parcela de cultivo, organizar talleres formativos y compartir herramientas o consejos agrícolas. Los usuarios pueden publicar eventos, inscribirse en actividades grupales y ofrecer/pedir herramientas prestadas. El coordinador municipal supervisa la asignación de parcelas y modera el tablón de anuncios.
 
-### 👥 Roles del Sistema
+### 👥 Roles
 * **Anónimo:** Vecino o visitante sin registro en el portal.
 * **Hortelano:** Usuario registrado activo en la comunidad.
 * **Coordinador-Moderador (Admin):** Responsable municipal encargado de la supervisión del espacio y las actividades.
@@ -104,7 +104,7 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 * **Área:** Mantenimiento e Incidencias Corporativas  
 * **Descripción:** Sistema de gestión interna de incidencias técnicas y de mantenimiento para las instalaciones de una organización. Permite a los empleados reportar averías (equipos informáticos, mobiliario, climatización), categorizarlas por urgencia y hacer seguimiento de su resolución. Los técnicos de mantenimiento reciben los partes, cambian el estado de las tareas y asignan prioridades. El responsable de infraestructura supervisa el rendimiento del equipo y gestiona los recursos asignados.
 
-### 👥 Roles del Sistema
+### 👥 Roles
 * **Anónimo:** Usuario no autenticado en la red interna.
 * **Empleado:** Personal de la organización que reporta incidencias.
 * **Técnico de Mantenimiento:** Operario encargado de resolver las averías asignadas.
@@ -134,7 +134,7 @@ Aquí tenéis los 3 errores más clásicos que suponen un "No Apto":
 Los verbos genéricos como "gestionar", "administrar" o "comprar" ocultan muchas acciones y no nos dicen qué datos hay que guardar. Hay que desglosar la acción real.
 * ❌ **Mal:** *"RF-01: El usuario puede comprar cosas en la web."*
 * ✅ **Bien:** *"RF-01: El usuario Cliente puede añadir, modificar la cantidad y eliminar productos de su carrito de la compra."*
-> 💡 *Por qué importa:* El requisito bien escrito ya te sugiere exactamente qué entidades vas a necesitar modelar luego (`Usuario`, `Producto`, `Carrito`).
+> 💡 *Por qué importa:* El requisito bien escrito ya te sugiere exactamente qué entidades vas a necesitar modelar luego (`Cliente`, `Producto`, `Carrito`).
 
 #### 2. Olvidar los roles y permisos (El "requisito fantasma")
 Si una acción no dice **quién** la ejecuta, es un error de diseño. No todos los usuarios pueden hacer de todo en un sistema real.
