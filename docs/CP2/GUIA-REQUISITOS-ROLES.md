@@ -77,9 +77,9 @@ Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
 **Descripción:** Plataforma web para organizar un huerto urbano municipal. Permite solicitar parcelas libres, publicar anuncios para prestar herramientas y apuntarse a talleres. 
 
 ### 👥 Roles
-1. **Anónimo:** Visitante público.
-2. **Hortelano:** Usuario registrado con perfil activo.
-3. **Administrador:** Coordinador municipal del espacio.
+* **Anónimo:** Visitante público.
+* **Hortelano:** Usuario registrado con perfil activo.
+* **Administrador:** Coordinador municipal del espacio.
 
 ### ⚙️ Requisitos Funcionales (RF)
 
