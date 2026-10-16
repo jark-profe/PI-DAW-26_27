@@ -30,7 +30,8 @@
 | **RF-03** | Socio | Reservar plaza en una clase dirigida si existe aforo disponible. |
 | **RF-04** | Socio | Cancelar una reserva previa dentro del plazo límite establecido por el centro. |
 | **RF-05** | Entrenador | Consultar la lista actualizada de socios inscritos en sus clases asignadas del día. |
-| **RF-06** | Administrador | Crear, editar o cancelar sesiones en el calendario y definir el aforo máximo por sala. |
+| **RF-06** | Administrador | Crear, editar, consultar o cancelar salas y sesiones de entrenamiento. |
+| **RF-07** | Administrador | Dar de alta, consultar perfil, modificar datos, o dar de baja a los entrenadores. |
 | **RF-SYS-01** | Sistema | Habilitar automáticamente la reserva de cada clase 48 horas antes de su horario de inicio. |
 | **RF-SYS-02** | Sistema | Promocionar automáticamente al primer socio en lista de espera cuando se registra una cancelación. |
 
@@ -82,8 +83,8 @@
 | **RF-02** | Hortelano | Enviar una solicitud formal para optar a la asignación de una parcela de cultivo libre. |
 | **RF-03** | Hortelano | Publicar anuncios para ofrecer o solicitar el préstamo temporal de herramientas agrícolas. |
 | **RF-04** | Hortelano | Inscribirse a talleres formativos y jornadas de trabajo comunitario programadas. |
-| **RF-05** | Coordinador | Gestionar la lista de espera y asignar las parcelas vacantes a los solicitantes. |
-| **RF-06** | Coordinador | Moderar, editar o eliminar publicaciones y comentarios que vulneren las normas de convivencia. |
+| **RF-05** | Administrador | Gestionar la lista de espera y asignar las parcelas vacantes a los solicitantes. |
+| **RF-06** | Administrador | Moderar, editar o eliminar publicaciones y comentarios que vulneren las normas de convivencia. |
 | **RF-SYS-01** | Sistema | Marcar automáticamente como "caducado" un anuncio de préstamo transcurridos 30 días sin actividad. |
 | **RF-SYS-02** | Sistema | Consolidar automáticamente las solicitudes de talleres aprobadas en la agenda comunitaria del portal. |
 
@@ -124,7 +125,7 @@ Aquí tenéis los 3 errores más clásicos que suponen un "No Apto":
 #### 1. Requisitos vagos o imprecisos (El "verbo trampa")
 Los verbos genéricos como "gestionar", "administrar" o "comprar" ocultan muchas acciones y no nos dicen qué datos hay que guardar. Hay que desglosar la acción real.
 * ❌ **Mal:** *"RF-01: El usuario puede comprar cosas en la web."*
-* ✅ **Bien:** *"RF-01: El usuario registrado puede añadir, modificar la cantidad y eliminar productos de su carrito de la compra."*
+* ✅ **Bien:** *"RF-01: El usuario Cliente puede añadir, modificar la cantidad y eliminar productos de su carrito de la compra."*
 > 💡 *Por qué importa:* El requisito bien escrito ya te sugiere exactamente qué entidades vas a necesitar modelar luego (`Usuario`, `Producto`, `Carrito`).
 
 #### 2. Olvidar los roles y permisos (El "requisito fantasma")
