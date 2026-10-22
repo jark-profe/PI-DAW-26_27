@@ -38,9 +38,5 @@ erDiagram
         float importe
         string estado
     }
-´´´
-
----
-
-
+```
 
