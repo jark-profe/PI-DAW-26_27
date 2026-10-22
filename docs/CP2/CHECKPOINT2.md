@@ -28,9 +28,6 @@ Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe
   * 💡 **Ejemplo básico en Markdown:**
 
 ```mermaid
----
-title: Ejemplo de Diagrama E/R
----
 erDiagram
     VECINO ||--o{ CUOTA : paga
     VECINO {
@@ -41,7 +38,7 @@ erDiagram
         float importe
         string estado
     }
-```
+´´´
 
 ---
 
