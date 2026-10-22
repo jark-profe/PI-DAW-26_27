@@ -40,3 +40,4 @@ erDiagram
     }
 ```
 
+> 💡 **Nota de visualización:** Si el diagrama no carga en GitHub, se debe a las restricciones de seguridad del perfil de **Chrome con la cuenta de EducaAnd**. Para verlo correctamente, abre el enlace en **Firefox** o en un **Perfil de Invitado / Personal** de Chrome.
