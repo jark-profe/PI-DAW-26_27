@@ -26,6 +26,7 @@ Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe
   * **Opción recomendada (Mermaid):** Se evalúa muy positivamente el uso de **Mermaid.js**. Permite definir el diagrama mediante código dentro del propio Markdown y GitHub lo renderiza automáticamente de forma nativa (sin subir imágenes ni perder resolución).
   * 🔗 **Guía rápida de sintaxis:** [Documentación oficial de Diagramas ER en Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
   * 💡 **Ejemplo básico en Markdown:**
+
 ```mermaid
 ---
 title: Ejemplo de Diagrama E/R
@@ -40,7 +41,7 @@ erDiagram
         float importe
         string estado
     }
-    ```
+```
 
 ---
 
