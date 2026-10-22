@@ -28,6 +28,15 @@ Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe
   * 💡 **Ejemplo básico en Markdown:**
 
 ```mermaid
-info
+erDiagram
+    VECINO ||--o{ CUOTA : paga
+    VECINO {
+        string id
+        string nombre
+    }
+    CUOTA {
+        float importe
+        string estado
+    }
 ```
 
