@@ -8,55 +8,8 @@
 
 # 📌 Guía para definir los Requisitos Funcionales (RF)
 
-Vamos a distinguir entre los RF de un usuario y los RF del sistema (`RF-SYS`):
+* **Fórmula:** `RF-XX: El [ROL] puede [ACCIÓN] sobre [ENTIDAD]`
 
-1. **Requisitos de usuario (`RF`):** Aqui definimos qué puede hacer un usuario con cierto rol.
-* **Fórmula:** `RF-XX: El [ROL] puede [ACCIÓN DE NEGOCIO] sobre [ENTIDAD]`
-* ✅ **Ejemplo correcto:** *"RF-01: El Usuario Registrado puede cancelar un pedido."*
-* ❌ **Ejemplo incorrecto:** *"RF-01: El cliente tendrá un formulario CRUD para los pedidos."* (No usar lenguaje técnico).
-  
-2. **Requisitos del Sistema (`RF-SYS`):** Funcionalidades, automatismos o reglas de negocio que ejecuta la aplicación en segundo plano, sin requerir una acción explícita por parte de ningún usuario.
-* **Fórmula:** `RF-SYS-XX: El sistema [ACCIÓN AUTOMÁTICA DE NEGOCIO] cuando [CONDICIÓN]`
-* ✅ **Ejemplo correcto:** *"RF-SYS-01: El sistema liberará una parcela si pasan 48 horas sin recibir el pago."*
-
-## 🛑 CASOS DE RF-SYS QUE ESTÁN MAL REDACTADOS
-
-Un Requisito Funcional (`RF` o `RF-SYS`) define **QUÉ hace la aplicación a nivel de negocio**, jamás **CÓMO se configura o valida técnicamente el software**.
-
----
-
-### 1. Consultas y vistas de la interfaz (UI)
-Cargar, mostrar o calcular datos al navegar por la app **es un RF de usuario**, jamás un `RF-SYS`.
-- ❌ *RF-SYS: Mostrar un resumen de cuotas pendientes, incidencias abiertas y gastos de la comunidad.*
-- ❌ *RF-SYS: Calcular el total de gastos o el balance para mostrarlo en el panel principal.*
-- ✅ *RF-01: El Vecino puede consultar el balance global y el resumen de sus cuotas e incidencias.*
-
----
-
-### 2. Metadatos y gestión de la base de datos
-Registrar marcas de tiempo de auditoría o definir comportamientos de tablas **son detalles técnicos de persistencia**, no reglas de negocio.
-- ❌ *RF-SYS: Registrar automáticamente la fecha de creación y modificación (`created_at` / `updated_at`).*
-- ❌ *RF-SYS: Aplicar borrado en cascada de los datos vinculados al eliminar un registro.*
-- ✅ **Criterio:** No se redactan como requisito. Se definen directamente en el modelo de datos (ER/ORM).
-
----
-
-### 3. Validaciones de formulario
-Verificar formatos de campos o comprobar datos obligatorios **es lógica de la interfaz/entrada**, no una regla de negocio del sistema.
-- ❌ *RF-SYS: Validar que el DNI tenga un formato correcto y el importe sea mayor que cero antes de guardar.*
-- ❌ *RF-SYS: Comprobar que todos los campos obligatorios estén rellenos al crear un aviso.*
-- ✅ **Criterio:** No se redactan como requisito. Se asumen como buenas prácticas de desarrollo en el frontend/backend.
-
----
-
-### 4. Permisos de rol vs. Parámetros de configuración
-No confundas las restricciones de acceso por rol con los parámetros de configuración técnica de la aplicación.
-- **Permisos por Rol:** Restringir una acción según el perfil **SÍ es un Requisito Funcional de Usuario (`RF`)**.
-  - ❌ *RF-SYS: Permitir el acceso a la gestión de gastos solo a usuarios con rol Administrador.*
-  - ✅ *RF-02: El Usuario Administrador puede gestionar los gastos de la comunidad.*
-- **Parámetros de Sesión (Timeout/Inactividad):** La caducidad de la sesión por inactividad o el cifrado de claves **son configuraciones técnicas**.
-  - ❌ *RF-SYS: Cerrar la sesión del usuario tras un tiempo prolongado de inactividad.*
-  - ✅ **Criterio:** No se redactan como requisito funcional. Se configuran directamente en el código de la aplicación.
 ---
 
 # 📝 Ejemplos: Definición de Roles y Requisitos Funcionales (RF)
@@ -84,8 +37,6 @@ No confundas las restricciones de acceso por rol con los parámetros de configur
 | **RF-05** | Entrenador | Consultar la lista actualizada de socios inscritos en sus clases asignadas del día. |
 | **RF-06** | Administrador | Crear, editar, consultar o cancelar salas, actividades y sesiones de entrenamiento. |
 | **RF-07** | Administrador | Dar de alta, consultar perfil, modificar datos, o dar de baja a los entrenadores. |
-| **RF-SYS-01** | Sistema | Habilitar automáticamente la reserva de cada clase 48 horas antes de su horario de inicio. |
-| **RF-SYS-02** | Sistema | Promocionar automáticamente al primer socio en lista de espera cuando se registra una cancelación. |
 
 ---
 
@@ -111,8 +62,6 @@ No confundas las restricciones de acceso por rol con los parámetros de configur
 | **RF-04** | Cliente | Consultar el historial personal y el estado de seguimiento de sus pedidos (En preparación, Enviado, Entregado). |
 | **RF-05** | Vendedor | Registrar nuevos productos, modificar precios, subir imágenes o retirar productos de su catálogo. |
 | **RF-06** | Administrador | Validar, aprobar o rechazar las solicitudes de alta de nuevos productores locales. |
-| **RF-SYS-01** | Sistema | Descontar automáticamente las unidades del stock disponible tras la confirmación de pago del pedido. |
-| **RF-SYS-02** | Sistema | Calcular la comisión correspondiente para la plataforma y el desglose de IVA al cerrar cada transacción. |
 
 ---
 
@@ -136,8 +85,6 @@ No confundas las restricciones de acceso por rol con los parámetros de configur
 | **RF-04** | Hortelano | El Hortelano puede inscribirse en los talleres publicados. |
 | **RF-05** | Admin | El Administrador puede asignar una parcela vacante a la solicitud de un Hortelano. |
 | **RF-06** | Admin | El Administrador puede eliminar los anuncios del tablón que incumplan las normas. |
-| **RF-SYS-01** | Sistema | El sistema deberá cambiar el estado de un anuncio a "caducado" cuando transcurran 30 días desde su publicación. |
-| **RF-SYS-02** | Sistema | El sistema deberá enviar un email de confirmación al Hortelano cuando el Administrador le asigne una parcela. |
 
 ---
 
@@ -162,8 +109,6 @@ No confundas las restricciones de acceso por rol con los parámetros de configur
 | **RF-03** | Empleado | Consultar el estado actualizado de sus partes registrados (Pendiente, En Proceso, Resuelto). |
 | **RF-04** | Técnico | Actualizar la fase del parte asignado e incluir observaciones técnicas sobre la reparación realizada. |
 | **RF-05** | Administrador | Asignar o derivar manualmente partes de incidencias entre técnicos y modificar prioridades. |
-| **RF-SYS-01** | Sistema | Asignar automáticamente el parte al área técnica correspondiente según la categoría seleccionada. |
-| **RF-SYS-02** | Sistema | Enviar una notificación automática (email/interna) al empleado cuando el estado de su incidencia se actualice. |
 
 ---
 
@@ -173,20 +118,20 @@ Para que los Requisitos Funcionales (RF) sean útiles y os sirvan de guía para 
 
 Aquí tenéis los 3 errores más clásicos que suponen un "No Apto":
 
-#### 1. Requisitos vagos o imprecisos (El "verbo trampa")
-Los verbos genéricos como "gestionar", "administrar" o "comprar" ocultan muchas acciones y no nos dicen qué datos hay que guardar. Hay que desglosar la acción real.
+#### 1. Requisitos vagos o imprecisos
+Los verbos genéricos como "gestionar" o "administrar" ocultan muchas acciones y no nos dicen qué datos hay que guardar. Hay que desglosar la acción real.
 * ❌ **Mal:** *"RF-01: El usuario puede comprar cosas en la web."*
 * ✅ **Bien:** *"RF-01: El usuario Cliente puede añadir, modificar la cantidad y eliminar productos de su carrito de la compra."*
 > 💡 *Por qué importa:* El requisito bien escrito ya te sugiere exactamente qué entidades vas a necesitar modelar luego (`Cliente`, `Producto`, `Carrito`).
 
-#### 2. Olvidar los roles y permisos (El "requisito fantasma")
+#### 2. Olvidar los roles y permisos
 Si una acción no dice **quién** la ejecuta, es un error de diseño. No todos los usuarios pueden hacer de todo en un sistema real.
 * ❌ **Mal:** *"RF-02: Se podrán borrar los comentarios del foro."* (¿Quién? ¿Un invitado? ¿Cualquiera?)
 * ✅ **Bien:** *"RF-02: El usuario con rol 'Autor' puede borrar sus propios comentarios, y el 'Administrador' puede borrar los de cualquier persona."*
 > 💡 *Por qué importa:* Te obliga a tener en cuenta la tabla de `Roles` o `Permisos` desde el principio y evita fallos graves de seguridad en la aplicación.
 
-#### 3. Mezclar diseño (UI) con funcionalidad (Backend)
-El Análisis define **QUÉ** hace el sistema, no **CÓMO** se ve o implementa. Guardad los colores, los botones y la maquetación para la fase de Diseño.
+#### 3. Incluir cosas de la implementación tales como interfaz, base de datos, backend (tokens, sesiones, configuraciones, etc)
+El Análisis define **QUÉ** hace el sistema, no **CÓMO** se ve implementa.
 * ❌ **Mal:** *"RF-03: Habrá un menú lateral azul con un botón grande para ver el perfil."*
-* ✅ **Bien:** *"RF-03: El sistema permitirá al usuario registrado consultar y actualizar los datos de su perfil personal (nombre, email y contraseña)."*
-> 💡 *Por qué importa:* La interfaz puede cambiar 20 veces (web, móvil, escritorio), pero el requisito de negocio y los datos del perfil siguen siendo los mismos.
+* ✅ **Bien:** *"RF-03: El sistema permitirá al usuario registrado consultar y actualizar los datos de su perfil personal."*
+> 💡 *Por qué importa:* La interfaz puede cambiar 20 veces, pero el requisito funcional seguirá siendo el mismo.
