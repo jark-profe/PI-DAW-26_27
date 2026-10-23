@@ -13,7 +13,7 @@ Definición  de los diferentes tipos de usuarios que interactuarán con la plata
 ### 2. Requisitos Funcionales (RF)
 Listado numerado y explicativo de todas las acciones, características y funcionalidades que el sistema debe permitir realizar.
 * **Formato:** Cada requisito debe tener un código identificador (ej: `RF-01`, `RF-02`), un título claro que indique qué permite hacer.
-* ⚠️ **RECUERDA** **NO incluyas Requisitos No Funcionales** (rendimiento, seguridad, tiempos de respuesta, etc.). Enfócate únicamente en definir **qué puede hacer cada usuario**.
+* ⚠️ **RECUERDA** **En el anteproyecto no se pedirán requisitos No Funcionales** (rendimiento, seguridad, tiempos de respuesta, etc.). Por ahora, enfócate únicamente en definir **qué puede hacer cada usuario**. Más adelante, en la documentación final, eres libre de añadir cuanta información desees sobre las características técnicas de tu proyecto.
 
 👉 **[Consulta aquí ejemplos de Roles y Requisitos](GUIA-REQUISITOS-ROLES.md)**
 
