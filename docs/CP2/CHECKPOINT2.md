@@ -8,7 +8,7 @@
 
 ### 1. Identificación de Roles
 Definición  de los diferentes tipos de usuarios que interactuarán con la plataforma y qué permisos generales tiene cada uno.
-* ⚠️ **RECUERDA:** La aplicación debe contar con **al menos 3 roles diferenciados** (Usuario *Anónimo*, al menos un tipo de Usuario *Registrado* y usuario *Administrador*).
+* ⚠️ **RECUERDA:** La aplicación debe contar con **al menos 3 roles diferenciados** (Usuario *Anónimo*, al menos un tipo de Usuario *Registrado* y al menos un usuario *Administrador*).
 
 ### 2. Requisitos Funcionales (RF)
 Listado numerado y explicativo de todas las acciones, características y funcionalidades que el sistema debe permitir realizar.
@@ -19,7 +19,7 @@ Listado numerado y explicativo de todas las acciones, características y funcion
 
 ### 3. Modelo Entidad-Relación (E/R)
 Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe representar fielmente todas las entidades, sus atributos, relaciones y cardinalidades requeridas para cumplir con los Requisitos Funcionales (`RF`).
-* ⚠️ **RECUERDA: SOLO se entregará el diagrama Entidad-Relación**. Para el anteproyecto no se pedirá el paso a Modelo Relacional, tablas ni claves primarias/foráneas. Sin embargo, eres libre de incluirlo si lo deseas.
+* ⚠️ **RECUERDA: SOLO se entregará el diagrama Entidad-Relación**. Para el anteproyecto no se pedirá el paso a Modelo Relacional, tablas ni claves primarias/foráneas. Sin embargo, eres libre de incluirlo en la documentación final si lo deseas.
 
 * **Origen de datos:** Puedes sacar  las entidades y sus atributos de los `RF` definidos en el punto anterior. Si identificas entidades nuevas, es posible que te falte algún Requisito Funcional.
 * **Herramientas:** Puedes usar la herramienta que desees para generarlo (Draw.io, StarUML, Lucidchart, Visio, etc.). Debe adjuntarse como una (o varias) imágenes claras.
