@@ -8,7 +8,7 @@ Este proyecto es tu oportunidad para demostrar y unificar todos los conocimiento
 
 ## 📌 Mínimos
 
-Antes de comenzar, es **estrictamente necesario** que conozcas los mínimos exigibles para que tu desarrollo sea evaluable.
+Estos son los mínimos exigibles para que tu desarrollo sea evaluable.
 
 👉 **[Consulta aquí las condiciones del proyecto](docs/CONDICIONES.md)**
 
