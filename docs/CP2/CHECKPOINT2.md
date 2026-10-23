@@ -21,9 +21,9 @@ Listado numerado y explicativo de todas las acciones, características y funcion
 Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe representar fielmente todas las entidades, sus atributos, relaciones y cardinalidades requeridas para cumplir con los Requisitos Funcionales (`RF`).
 * ⚠️ **RECUERDA: SOLO se entregará el diagrama Entidad-Relación**. No se incluirá paso a Modelo Relacional, tablas ni claves primarias/foráneas en esta entrega.
 
-* **Origen de datos:** Todas las entidades y sus atributos deben derivarse estrictamente de los `RF` definidos en el punto anterior. No añadas entidades no justificadas.
-* **Herramientas:** Formato libre (Draw.io, StarUML, Lucidchart, Visio, etc.). Debe adjuntarse como una (o varias) imágenes claras.
-  * **Opción recomendada (Mermaid):** Se evalúa muy positivamente el uso de **Mermaid.js**. Permite definir el diagrama mediante código dentro del propio Markdown y GitHub lo renderiza automáticamente de forma nativa (sin subir imágenes ni perder resolución).
+* **Origen de datos:** Puedes sacar  las entidades y sus atributos de los `RF` definidos en el punto anterior. Si identificas entidades nuevas, es posible que te falte algún Requisito Funcional.
+* **Herramientas:** Puedes usar la herramienta que desees para generarlo (Draw.io, StarUML, Lucidchart, Visio, etc.). Debe adjuntarse como una (o varias) imágenes claras.
+  * **Opción recomendada (Mermaid):** Se evalúa muy positivamente el uso de **Mermaid.js**. Mermaid permite definir el diagrama mediante código **dentro del propio Markdown** y GitHub lo renderiza automáticamente de forma nativa sin necesidad de subir imágenes ni perder resolución.
   * 🔗 **Guía rápida de sintaxis:** [Documentación oficial de Diagramas ER en Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
   * 💡 **Ejemplo básico en Markdown:**
 
