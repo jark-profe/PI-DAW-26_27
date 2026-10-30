@@ -37,7 +37,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
       <td>1 Noviembre</td>
     </tr>
     <tr>
-      <td><strong>Checkpoint 3: Diseño</strong></td>
+      <td><strong><a href="docs/CP3/CHECKPOINT3.md">Checkpoint 3: Diseño</a></strong></td>
       <td>(Por definir)</td>
     </tr>
     <tr>
