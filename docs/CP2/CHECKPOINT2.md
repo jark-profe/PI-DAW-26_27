@@ -22,8 +22,8 @@ Diseño del esquema conceptual de datos que dará soporte a la aplicación. Debe
 * ⚠️ **RECUERDA: SOLO se entregará el diagrama Entidad-Relación**. Para el anteproyecto no se pedirá el paso a Modelo Relacional, tablas ni claves primarias/foráneas. Sin embargo, eres libre de incluirlo en la documentación final si lo deseas.
 
 * **Origen de datos:** Puedes sacar  las entidades y sus atributos de los `RF` definidos en el punto anterior. Si identificas entidades nuevas, es posible que te falte algún Requisito Funcional.
-* **Herramientas:** Puedes usar la herramienta que desees para generarlo (Draw.io, StarUML, Lucidchart, Visio, etc.). Debe adjuntarse como una (o varias) imágenes claras.
-  * **Opción recomendada (Mermaid):** Se evalúa muy positivamente el uso de **Mermaid.js**. Mermaid permite definir el diagrama mediante código **dentro del propio Markdown** y GitHub lo renderiza automáticamente de forma nativa sin necesidad de subir imágenes ni perder resolución.
+* **Herramientas:** Puedes usar la herramienta que desees para generarlo (Draw.io, StarUML, Lucidchart, Visio, etc.). **Debe adjuntarse como una (o varias) imágenes claras.**
+  * **EXTRA (Mermaid):** Además de entregar las imagenes del diagrama, se evalúa muy positivamente el uso de **Mermaid.js**. Mermaid permite definir el diagrama mediante código **dentro del propio Markdown** y GitHub lo renderiza automáticamente de forma nativa sin necesidad de subir imágenes ni perder resolución.
   * 🔗 **Guía rápida de sintaxis:** [Documentación oficial de Diagramas ER en Mermaid](https://mermaid.js.org/syntax/entityRelationshipDiagram.html)
   * 💡 **Ejemplo básico en Markdown:**
 
