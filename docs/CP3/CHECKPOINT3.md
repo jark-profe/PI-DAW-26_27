@@ -61,38 +61,6 @@ Se recomienda utilizar cualquiera de las siguientes herramientas para la entrega
 #### 💡 Ejemplo en Mermaid.js
 <img width="670" height="745" alt="image" src="https://github.com/user-attachments/assets/af189880-2993-42e8-ba05-2d54cdfba162" />
 
-
-```mermaid
-graph TD
-    %% Bloque 1: Vistas públicas
-    subgraph PUBLICAS ["🌐 Vistas públicas (Anónimo)"]
-        V01["V-01: Inicio (/)"]
-        V02["V-02: Registro (/registro)"]
-        V03["V-03: Login (/login)"]
-    end
-
-    %% Bloque 2: Vistas privadas
-    subgraph PRIVADAS ["🫂 Vistas privadas (Usuario registrado)"]
-        V04["V-04: Mi Perfil (/perfil)"]
-        V05["V-05: Mis pedidos (/pedidos)"]
-    end
-
-    %% Bloque 3: Vistas de Gestión
-    subgraph GESTION ["🧑‍💻 Vistas de gestión (Administrador)"]
-        V06["V-06: Panel de control (/admin)"]
-        V07["V-07: Gestión usuarios (/admin-usuarios)"]
-    end
-
-    %% Flujos de navegación
-    V01 -->|Acceder a registro| V02
-    V01 -->|Acceder a login| V03
-    
-    V03 -.->|Login correcto (Usuario)| V04
-    V03 -.->|Login correcto (Admin)| V06
-    
-    V04 -->|Ver historial| V05
-    V06 -->|Administrar cuentas| V07
-
 ---
 
 *(Continuará...)*
