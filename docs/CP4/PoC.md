@@ -20,5 +20,5 @@ Para dar por superado este Checkpoint, tu repositorio en GitHub debe contener:
 
 1. **Código fuente en la carpeta `/poc`:** Todo el código de esta prueba debe ir alojado dentro de una carpeta llamada `/poc` en la raíz de tu repositorio (así no interferirá cuando empieces a desarrollar la aplicación definitiva). Recuerda configurar bien el `.gitignore` para no subir `node_modules/`, `vendor/` o archivos `.env` con contraseñas reales.
 2. **Evidencias en el `README.md`:** Actualiza el `README.md` (o crea un `README.md` dentro de `/poc`) incluyendo:
-   * **Capturas de pantalla:** Imágenes de la aplicación funcionando en el navegador mostrando la funcionalidad clave junto a la evidencia de los datos en la base de datos.
+   * **Capturas de pantalla:** Imágenes (las justas) de la aplicación funcionando en el navegador mostrando la funcionalidad clave junto a la evidencia de los datos en la base de datos.
    * **Vídeo-demo (máx. 3-4 minutos):** Enlace a un vídeo breve (subido a YouTube en oculto o Google Drive) donde enseñes tu pantalla, muestres brevemente la estructura del código y ejecutes en directo el flujo principal de tu PoC explicando cómo funciona.
