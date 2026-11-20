@@ -38,7 +38,7 @@ El proyecto se divide en diferentes fases con hitos de entrega. A continuación,
     </tr>
     <tr>
       <td><strong><a href="docs/CP3/CHECKPOINT3.md">Checkpoint 3: Diseño</a></strong></td>
-      <td>(Por definir)</td>
+      <td>11 Diciembre</td>
     </tr>
     <tr>
       <td><strong>Checkpoint 4: PoC (Prueba de Concepto)</strong></td>
